@@ -26,13 +26,20 @@ jobs:
         run: |
           echo Installing iverilog
           sudo apt-get install iverilog
-        
-
+          
       - name: Configure
         run: |
           sudo mkdir build && cd build
-          ../configure 
+          sudo ../configure 
+          
       - name: Test All
         run: |
-          make
-          make check
+          sudo make
+          sudo make check
+          
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: |
+            build
