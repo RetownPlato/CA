@@ -34,7 +34,7 @@ jobs:
           
       - name: Test All
         run: |
-          sudo cd build
+          cd build
           sudo make
           sudo make check
           
@@ -44,3 +44,8 @@ jobs:
           name: build
           path: |
             build
+      
+      - name: Download a single artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build
