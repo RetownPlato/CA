@@ -18,5 +18,7 @@ subprojs = \
   ex-gcd \
 #  ex-basics \
 #  pisa \
-#  lab3-mem \
+#  1-imul
+#  2-cpu
+#  3-mem \
 

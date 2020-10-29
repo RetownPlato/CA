@@ -1044,17 +1044,6 @@ module pisa_InstTasks();
     rc  = 5'bx;
     imm = 16'bx;
 
-    // If asm has any Xs then |(asm ^ asm)) will not equal zero, in which
-    // case we will stop the simulation with an error since something
-    // went wrong in the assembly process.
-
-    if ((|(asm ^ asm)) == 1'b0);
-    else begin
-      $display( "\n");
-      $display( " ERROR: Could not assemble \"%s\"\n", str );
-      $finish;
-    end
-
   end
   endfunction
 
