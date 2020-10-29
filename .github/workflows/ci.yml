@@ -22,7 +22,7 @@ jobs:
 
       - name: Install iverilog and verilator
         run: |
-          echo Installing iverilog & Verilator
+          echo Installing iverilog and Verilator
           sudo apt-get install iverilog
           sudo apt-get install verilator           
           
