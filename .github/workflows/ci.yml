@@ -34,6 +34,7 @@ jobs:
           
       - name: Test All
         run: |
+          sudo cd build
           sudo make
           sudo make check
           
