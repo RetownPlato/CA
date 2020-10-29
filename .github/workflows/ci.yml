@@ -27,7 +27,7 @@ jobs:
           wget ftp://ftp.icarus.com/pub/eda/verilog/v11/verilog-11.0.tar.gz
           sudo tar -zxvf verilog-11.0.tar.gz   
           cd verilog-11.0
-          ./configure  
+          sudo ./configure  
           sudo make
           sudo make install
           iverilog -V  
