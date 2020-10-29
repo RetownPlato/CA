@@ -1,0 +1,28 @@
+
+ Test Suite: ex-sorter-MinMaxUnit
+  + Test Case 1: simple
+                Inputs:in0 = 01,in1 = 02
+     [ passed ]t1_out_min, expected = 01, actual = 01
+     [ passed ]t1_out_max, expected = 02, actual = 02
+                Inputs:in0 = 02,in1 = 01
+     [ passed ]t1_out_min, expected = 01, actual = 01
+     [ passed ]t1_out_max, expected = 02, actual = 02
+                Inputs:in0 = 01,in1 = 01
+     [ passed ]t1_out_min, expected = 01, actual = 01
+     [ passed ]t1_out_max, expected = 01, actual = 01
+                Inputs:in0 = 00,in1 = 00
+     [ passed ]t1_out_min, expected = 00, actual = 00
+     [ passed ]t1_out_max, expected = 00, actual = 00
+                Inputs:in0 = ff,in1 = fe
+     [ passed ]t1_out_min, expected = fe, actual = fe
+     [ passed ]t1_out_max, expected = ff, actual = ff
+                Inputs:in0 = fe,in1 = ff
+     [ passed ]t1_out_min, expected = fe, actual = fe
+     [ passed ]t1_out_max, expected = ff, actual = ff
+                Inputs:in0 = ff,in1 = 7f
+     [ passed ]t1_out_min, expected = 7f, actual = 7f
+     [ passed ]t1_out_max, expected = ff, actual = ff
+                Inputs:in0 = 7f,in1 = ff
+     [ passed ]t1_out_min, expected = 7f, actual = 7f
+     [ passed ]t1_out_max, expected = ff, actual = ff
+

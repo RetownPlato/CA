@@ -13,7 +13,10 @@
 
 subprojs = \
   vc \
-  ex-basics \
+  ex-regincr \
   ex-sorter \
-  ex-gdc \
+  ex-gcd \
+#  ex-basics \
+#  pisa \
+#  lab3-mem \
 

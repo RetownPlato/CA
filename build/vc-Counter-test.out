@@ -1,0 +1,96 @@
+
+ Test Suite: vc-Counter
+  + Test Case 1: vc_Counter
+                Inputs:increment = 0,decrement = 0
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 0
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 0
+     [ passed ]t1_count, expected = 4, actual = 4
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 0
+     [ passed ]t1_count, expected = 5, actual = 5
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 1, actual = 1
+                Inputs:increment = 1,decrement = 0
+     [ passed ]t1_count, expected = 5, actual = 5
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 1, actual = 1
+                Inputs:increment = 1,decrement = 0
+     [ passed ]t1_count, expected = 5, actual = 5
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 1, actual = 1
+                Inputs:increment = 0,decrement = 1
+     [ passed ]t1_count, expected = 5, actual = 5
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 1, actual = 1
+                Inputs:increment = 0,decrement = 1
+     [ passed ]t1_count, expected = 4, actual = 4
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 1
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 1
+     [ passed ]t1_count, expected = 2, actual = 2
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 1
+     [ passed ]t1_count, expected = 1, actual = 1
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 1
+     [ passed ]t1_count, expected = 0, actual = 0
+     [ passed ]t1_count_is_zero, expected = 1, actual = 1
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 1
+     [ passed ]t1_count, expected = 0, actual = 0
+     [ passed ]t1_count_is_zero, expected = 1, actual = 1
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 1
+     [ passed ]t1_count, expected = 0, actual = 0
+     [ passed ]t1_count_is_zero, expected = 1, actual = 1
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 0
+     [ passed ]t1_count, expected = 0, actual = 0
+     [ passed ]t1_count_is_zero, expected = 1, actual = 1
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 0
+     [ passed ]t1_count, expected = 1, actual = 1
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 0
+     [ passed ]t1_count, expected = 2, actual = 2
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 0
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 0
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 0,decrement = 0
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 1
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 1
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+                Inputs:increment = 1,decrement = 1
+     [ passed ]t1_count, expected = 3, actual = 3
+     [ passed ]t1_count_is_zero, expected = 0, actual = 0
+     [ passed ]t1_count_is_max, expected = 0, actual = 0
+

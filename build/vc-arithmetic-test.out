@@ -1,0 +1,217 @@
+
+ Test Suite: vc-arithmetic
+  + Test Case 1: vc_Adder_w8
+                Inputs:in0 = 01,in1 = 01,cin = 0
+     [ passed ]t1_out, expected = 02, actual = 02
+     [ passed ]t1_cout, expected = 0, actual = 0
+                Inputs:in0 = 01,in1 = 00,cin = 0
+     [ passed ]t1_out, expected = 01, actual = 01
+     [ passed ]t1_cout, expected = 0, actual = 0
+                Inputs:in0 = 02,in1 = 03,cin = 0
+     [ passed ]t1_out, expected = 05, actual = 05
+     [ passed ]t1_cout, expected = 0, actual = 0
+                Inputs:in0 = 02,in1 = 03,cin = 1
+     [ passed ]t1_out, expected = 06, actual = 06
+     [ passed ]t1_cout, expected = 0, actual = 0
+                Inputs:in0 = fe,in1 = 01,cin = 0
+     [ passed ]t1_out, expected = ff, actual = ff
+     [ passed ]t1_cout, expected = 0, actual = 0
+                Inputs:in0 = ff,in1 = 01,cin = 0
+     [ passed ]t1_out, expected = 00, actual = 00
+     [ passed ]t1_cout, expected = 1, actual = 1
+                Inputs:in0 = ff,in1 = 01,cin = 1
+     [ passed ]t1_out, expected = 01, actual = 01
+     [ passed ]t1_cout, expected = 1, actual = 1
+                Inputs:in0 = ff,in1 = ff,cin = 0
+     [ passed ]t1_out, expected = fe, actual = fe
+     [ passed ]t1_cout, expected = 1, actual = 1
+                Inputs:in0 = ff,in1 = ff,cin = 1
+     [ passed ]t1_out, expected = ff, actual = ff
+     [ passed ]t1_cout, expected = 1, actual = 1
+  + Test Case 2: vc_SimpleAdder_w8
+                Inputs:in0 = 01,in1 = 01
+     [ passed ]t2_out, expected = 02, actual = 02
+                Inputs:in0 = 01,in1 = 00
+     [ passed ]t2_out, expected = 01, actual = 01
+                Inputs:in0 = 02,in1 = 03
+     [ passed ]t2_out, expected = 05, actual = 05
+                Inputs:in0 = fe,in1 = 01
+     [ passed ]t2_out, expected = ff, actual = ff
+                Inputs:in0 = ff,in1 = 01
+     [ passed ]t2_out, expected = 00, actual = 00
+                Inputs:in0 = ff,in1 = ff
+     [ passed ]t2_out, expected = fe, actual = fe
+  + Test Case 3: vc_Subtractor_w8
+                Inputs:in0 = 02,in1 = 01
+     [ passed ]t3_out, expected = 01, actual = 01
+                Inputs:in0 = 01,in1 = 00
+     [ passed ]t3_out, expected = 01, actual = 01
+                Inputs:in0 = 05,in1 = 03
+     [ passed ]t3_out, expected = 02, actual = 02
+                Inputs:in0 = ff,in1 = 01
+     [ passed ]t3_out, expected = fe, actual = fe
+                Inputs:in0 = 00,in1 = 01
+     [ passed ]t3_out, expected = ff, actual = ff
+                Inputs:in0 = fe,in1 = ff
+     [ passed ]t3_out, expected = ff, actual = ff
+  + Test Case 4: vc_Incrementer_w8_inc1
+                Inputs:in =   2
+     [ passed ]t4_out, expected = 03, actual = 03
+                Inputs:in =   0
+     [ passed ]t4_out, expected = 01, actual = 01
+                Inputs:in =   1
+     [ passed ]t4_out, expected = 02, actual = 02
+                Inputs:in =   5
+     [ passed ]t4_out, expected = 06, actual = 06
+                Inputs:in = 255
+     [ passed ]t4_out, expected = 00, actual = 00
+                Inputs:in = 254
+     [ passed ]t4_out, expected = ff, actual = ff
+  + Test Case 5: vc_Incrementer_w8_inc2
+                Inputs:in =   2
+     [ passed ]t5_out, expected = 04, actual = 04
+                Inputs:in =   0
+     [ passed ]t5_out, expected = 02, actual = 02
+                Inputs:in =   1
+     [ passed ]t5_out, expected = 03, actual = 03
+                Inputs:in =   5
+     [ passed ]t5_out, expected = 07, actual = 07
+                Inputs:in = 255
+     [ passed ]t5_out, expected = 01, actual = 01
+                Inputs:in = 254
+     [ passed ]t5_out, expected = 00, actual = 00
+  + Test Case 6: vc_ZeroExtender_2to8
+                Inputs:in = 0
+     [ passed ]t6_out, expected = 00, actual = 00
+                Inputs:in = 1
+     [ passed ]t6_out, expected = 01, actual = 01
+                Inputs:in = 2
+     [ passed ]t6_out, expected = 02, actual = 02
+                Inputs:in = 3
+     [ passed ]t6_out, expected = 03, actual = 03
+  + Test Case 7: vc_SignExtender_2to8
+                Inputs:in = 0
+     [ passed ]t7_out, expected = 00, actual = 00
+                Inputs:in = 1
+     [ passed ]t7_out, expected = 01, actual = 01
+                Inputs:in = 2
+     [ passed ]t7_out, expected = fe, actual = fe
+                Inputs:in = 3
+     [ passed ]t7_out, expected = ff, actual = ff
+  + Test Case 8: vc_ZeroComparator_w8
+                Inputs:in =   0
+     [ passed ]t8_out, expected = 1, actual = 1
+                Inputs:in =   1
+     [ passed ]t8_out, expected = 0, actual = 0
+                Inputs:in = 254
+     [ passed ]t8_out, expected = 0, actual = 0
+                Inputs:in = 255
+     [ passed ]t8_out, expected = 0, actual = 0
+  + Test Case 9: vc_EqComparator_w8
+                Inputs:in0 = 01,in1 = 01
+     [ passed ]t9_out, expected = 1, actual = 1
+                Inputs:in0 = 00,in1 = 00
+     [ passed ]t9_out, expected = 1, actual = 1
+                Inputs:in0 = 01,in1 = 00
+     [ passed ]t9_out, expected = 0, actual = 0
+                Inputs:in0 = 00,in1 = 01
+     [ passed ]t9_out, expected = 0, actual = 0
+                Inputs:in0 = fe,in1 = fe
+     [ passed ]t9_out, expected = 1, actual = 1
+                Inputs:in0 = ff,in1 = ff
+     [ passed ]t9_out, expected = 1, actual = 1
+                Inputs:in0 = fe,in1 = ff
+     [ passed ]t9_out, expected = 0, actual = 0
+  + Test Case 10: vc_LtComparator_w8
+                Inputs:in0 = 01,in1 = 01
+     [ passed ]t10_out, expected = 0, actual = 0
+                Inputs:in0 = 00,in1 = 00
+     [ passed ]t10_out, expected = 0, actual = 0
+                Inputs:in0 = 01,in1 = 00
+     [ passed ]t10_out, expected = 0, actual = 0
+                Inputs:in0 = 00,in1 = 01
+     [ passed ]t10_out, expected = 1, actual = 1
+                Inputs:in0 = 03,in1 = 03
+     [ passed ]t10_out, expected = 0, actual = 0
+                Inputs:in0 = 01,in1 = 01
+     [ passed ]t10_out, expected = 0, actual = 0
+                Inputs:in0 = 03,in1 = 01
+     [ passed ]t10_out, expected = 0, actual = 0
+                Inputs:in0 = 01,in1 = 03
+     [ passed ]t10_out, expected = 1, actual = 1
+                Inputs:in0 = fe,in1 = fe
+     [ passed ]t10_out, expected = 0, actual = 0
+                Inputs:in0 = fe,in1 = ff
+     [ passed ]t10_out, expected = 1, actual = 1
+                Inputs:in0 = ff,in1 = fe
+     [ passed ]t10_out, expected = 0, actual = 0
+                Inputs:in0 = ff,in1 = ff
+     [ passed ]t10_out, expected = 0, actual = 0
+  + Test Case 11: vc_GtComparator_w8
+                Inputs:in0 = 01,in1 = 01
+     [ passed ]t11_out, expected = 0, actual = 0
+                Inputs:in0 = 00,in1 = 00
+     [ passed ]t11_out, expected = 0, actual = 0
+                Inputs:in0 = 01,in1 = 00
+     [ passed ]t11_out, expected = 1, actual = 1
+                Inputs:in0 = 00,in1 = 01
+     [ passed ]t11_out, expected = 0, actual = 0
+                Inputs:in0 = 03,in1 = 03
+     [ passed ]t11_out, expected = 0, actual = 0
+                Inputs:in0 = 01,in1 = 01
+     [ passed ]t11_out, expected = 0, actual = 0
+                Inputs:in0 = 03,in1 = 01
+     [ passed ]t11_out, expected = 1, actual = 1
+                Inputs:in0 = 01,in1 = 03
+     [ passed ]t11_out, expected = 0, actual = 0
+                Inputs:in0 = fe,in1 = fe
+     [ passed ]t11_out, expected = 0, actual = 0
+                Inputs:in0 = fe,in1 = ff
+     [ passed ]t11_out, expected = 0, actual = 0
+                Inputs:in0 = ff,in1 = fe
+     [ passed ]t11_out, expected = 1, actual = 1
+                Inputs:in0 = ff,in1 = ff
+     [ passed ]t11_out, expected = 0, actual = 0
+  + Test Case 12: vc_LeftLogicalShifter_w8
+                Inputs:in = 01,shamt = 01
+     [ passed ]t12_out, expected = 02, actual = 02
+                Inputs:in = 01,shamt = 00
+     [ passed ]t12_out, expected = 01, actual = 01
+                Inputs:in = 01,shamt = 02
+     [ passed ]t12_out, expected = 04, actual = 04
+                Inputs:in = 01,shamt = 03
+     [ passed ]t12_out, expected = 08, actual = 08
+                Inputs:in = 01,shamt = 04
+     [ passed ]t12_out, expected = 10, actual = 10
+                Inputs:in = 01,shamt = 05
+     [ passed ]t12_out, expected = 20, actual = 20
+                Inputs:in = 01,shamt = 06
+     [ passed ]t12_out, expected = 40, actual = 40
+                Inputs:in = 01,shamt = 07
+     [ passed ]t12_out, expected = 80, actual = 80
+                Inputs:in = 01,shamt = 08
+     [ passed ]t12_out, expected = 00, actual = 00
+                Inputs:in = b7,shamt = 03
+     [ passed ]t12_out, expected = b8, actual = b8
+  + Test Case 13: vc_RightLogicalShifter_w8
+                Inputs:in = 80,shamt = 01
+     [ passed ]t13_out, expected = 40, actual = 40
+                Inputs:in = 80,shamt = 00
+     [ passed ]t13_out, expected = 80, actual = 80
+                Inputs:in = 80,shamt = 02
+     [ passed ]t13_out, expected = 20, actual = 20
+                Inputs:in = 80,shamt = 03
+     [ passed ]t13_out, expected = 10, actual = 10
+                Inputs:in = 80,shamt = 04
+     [ passed ]t13_out, expected = 08, actual = 08
+                Inputs:in = 80,shamt = 05
+     [ passed ]t13_out, expected = 04, actual = 04
+                Inputs:in = 80,shamt = 06
+     [ passed ]t13_out, expected = 02, actual = 02
+                Inputs:in = 80,shamt = 07
+     [ passed ]t13_out, expected = 01, actual = 01
+                Inputs:in = 80,shamt = 08
+     [ passed ]t13_out, expected = 00, actual = 00
+                Inputs:in = b7,shamt = 03
+     [ passed ]t13_out, expected = 16, actual = 16
+

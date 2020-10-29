@@ -11,9 +11,21 @@ ex_sorter_srcs = \
   ex-sorter-test-harness.v \
   ex-sorter-sim-harness.v \
 
+#+++ gen-harness : begin insert ++++++++++++++++++++++++++++++++++++++++++
+#
+# ex_sorter_test_srcs = \
+#   ex-sorter-SorterFlat.t.v \
+#   ex-sorter-SorterStruct.t.v \
+#
+#+++ gen-harness : end insert ++++++++++++++++++++++++++++++++++++++++++++
+#+++ gen-harness : begin cut +++++++++++++++++++++++++++++++++++++++++++++
+
 ex_sorter_test_srcs = \
   ex-sorter-SorterFlat.t.v \
+  ex-sorter-MinMaxUnit.t.v \
   ex-sorter-SorterStruct.t.v \
+
+#+++ gen-harness : end cut +++++++++++++++++++++++++++++++++++++++++++++++
 
 ex_sorter_sim_srcs = \
   ex-sorter-sim-flat.v \

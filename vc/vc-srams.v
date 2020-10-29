@@ -45,7 +45,7 @@ module vc_CombinationalSRAM_1rw
   // read data is all X's if the read is not enable at all to avoid
   // (potentially) incorrectly assuming the SRAM latches the read data.
 
-  reg read_data;
+  reg [p_data_nbits-1:0] read_data;
   always @(*) begin
     if ( read_en )
       read_data = mem[read_addr];
@@ -130,7 +130,7 @@ module vc_SynchronousSRAM_1rw
   // read data is all X's if the read is not enable at all to avoid
   // (potentially) incorrectly assuming the SRAM latches the read data.
 
-  reg read_data;
+  reg [p_data_nbits-1:0] read_data;
   always @( posedge clk ) begin
     if ( read_en )
       read_data <= mem[read_addr];

@@ -1,0 +1,245 @@
+
+ Test Suite: vc-PipeCtrl
+  + Test Case 1: no stall src delay = 0, sink delay = 0
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 00000031, actual = 00000031
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 00000033, actual = 00000033
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 00000019, actual = 00000019
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = 000000ff, actual = 000000ff
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 2: no stall src delay = 4, sink delay = 0
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 00000031, actual = 00000031
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 00000033, actual = 00000033
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 00000019, actual = 00000019
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = 000000ff, actual = 000000ff
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 3: no stall src delay = 0, sink delay = 4
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 00000031, actual = 00000031
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 00000033, actual = 00000033
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 00000019, actual = 00000019
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = 000000ff, actual = 000000ff
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 4: no stall src delay = 4, sink delay = 4
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 00000031, actual = 00000031
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 00000033, actual = 00000033
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 00000019, actual = 00000019
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = 000000ff, actual = 000000ff
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 5: stall src delay = 0, sink delay = 0
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 00000031, actual = 00000031
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 00000033, actual = 00000033
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 00000019, actual = 00000019
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = 000000ff, actual = 000000ff
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 6: stall src delay = 4, sink delay = 0
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 00000031, actual = 00000031
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 00000033, actual = 00000033
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 00000019, actual = 00000019
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = 000000ff, actual = 000000ff
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 7: stall src delay = 0, sink delay = 4
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 00000031, actual = 00000031
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 00000033, actual = 00000033
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 00000019, actual = 00000019
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = 000000ff, actual = 000000ff
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 8: stall src delay = 4, sink delay = 4
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 00000010, actual = 00000010
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 00000031, actual = 00000031
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 00000033, actual = 00000033
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 00000019, actual = 00000019
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = 000000ff, actual = 000000ff
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 9: squash src delay = 0, sink delay = 0
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = 000000e0, actual = 000000e0
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = 000000d1, actual = 000000d1
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 000000aa, actual = 000000aa
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 00000001, actual = 00000001
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 00000096, actual = 00000096
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 00000080, actual = 00000080
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = 00000010, actual = 00000010
+     [ passed ]th_done, expected = 1, actual = 1
+

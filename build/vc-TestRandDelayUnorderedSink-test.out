@@ -1,0 +1,1215 @@
+
+ Test Suite: vc-TestRandDelayUnorderedSink
+  + Test Case 1: src delay = 0, sink delay = 0
+                top.th.sink.sink checking message number 100
+     [ passed ] msg, expected = 04, actual = 04
+                top.th.sink.sink checking message number 71
+     [ passed ] msg, expected = 78, actual = 78
+                top.th.sink.sink checking message number 37
+     [ passed ] msg, expected = 99, actual = 99
+                top.th.sink.sink checking message number 27
+     [ passed ] msg, expected = 6d, actual = 6d
+                top.th.sink.sink checking message number 92
+     [ passed ] msg, expected = 9c, actual = 9c
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = ba, actual = ba
+                top.th.sink.sink checking message number 50
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 13
+     [ passed ] msg, expected = f7, actual = f7
+                top.th.sink.sink checking message number 30
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 51
+     [ passed ] msg, expected = ab, actual = ab
+                top.th.sink.sink checking message number 17
+     [ passed ] msg, expected = b9, actual = b9
+                top.th.sink.sink checking message number 48
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 54
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 62
+     [ passed ] msg, expected = 82, actual = 82
+                top.th.sink.sink checking message number 25
+     [ passed ] msg, expected = 44, actual = 44
+                top.th.sink.sink checking message number 19
+     [ passed ] msg, expected = fe, actual = fe
+                top.th.sink.sink checking message number 67
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 38
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 50, actual = 50
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 22, actual = 22
+                top.th.sink.sink checking message number 76
+     [ passed ] msg, expected = 69, actual = 69
+                top.th.sink.sink checking message number 49
+     [ passed ] msg, expected = 92, actual = 92
+                top.th.sink.sink checking message number 26
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 24
+     [ passed ] msg, expected = 21, actual = 21
+                top.th.sink.sink checking message number 43
+     [ passed ] msg, expected = ff, actual = ff
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = ad, actual = ad
+                top.th.sink.sink checking message number 73
+     [ passed ] msg, expected = 01, actual = 01
+                top.th.sink.sink checking message number 64
+     [ passed ] msg, expected = 64, actual = 64
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = b0, actual = b0
+                top.th.sink.sink checking message number 70
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 20
+     [ passed ] msg, expected = f0, actual = f0
+                top.th.sink.sink checking message number 79
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 14
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 33
+     [ passed ] msg, expected = 55, actual = 55
+                top.th.sink.sink checking message number 83
+     [ passed ] msg, expected = 63, actual = 63
+                top.th.sink.sink checking message number 21
+     [ passed ] msg, expected = 71, actual = 71
+                top.th.sink.sink checking message number 84
+     [ passed ] msg, expected = 90, actual = 90
+                top.th.sink.sink checking message number 91
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 96
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 15, actual = 15
+                top.th.sink.sink checking message number 75
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 44
+     [ passed ] msg, expected = 7f, actual = 7f
+                top.th.sink.sink checking message number 28
+     [ passed ] msg, expected = 31, actual = 31
+                top.th.sink.sink checking message number 68
+     [ passed ] msg, expected = 0c, actual = 0c
+                top.th.sink.sink checking message number 18
+     [ passed ] msg, expected = 47, actual = 47
+                top.th.sink.sink checking message number 42
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 65
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 46
+     [ passed ] msg, expected = 7a, actual = 7a
+                top.th.sink.sink checking message number 77
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 56
+     [ passed ] msg, expected = 0b, actual = 0b
+                top.th.sink.sink checking message number 32
+     [ passed ] msg, expected = aa, actual = aa
+                top.th.sink.sink checking message number 31
+     [ passed ] msg, expected = 3d, actual = 3d
+                top.th.sink.sink checking message number 98
+     [ passed ] msg, expected = 4e, actual = 4e
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 20, actual = 20
+                top.th.sink.sink checking message number 58
+     [ passed ] msg, expected = 70, actual = 70
+                top.th.sink.sink checking message number 55
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 72
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 88
+     [ passed ] msg, expected = 60, actual = 60
+                top.th.sink.sink checking message number 39
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 60
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 34
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 57
+     [ passed ] msg, expected = 46, actual = 46
+                top.th.sink.sink checking message number 78
+     [ passed ] msg, expected = 88, actual = 88
+                top.th.sink.sink checking message number 81
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 23
+     [ passed ] msg, expected = 0d, actual = 0d
+                top.th.sink.sink checking message number 74
+     [ passed ] msg, expected = c2, actual = c2
+                top.th.sink.sink checking message number 89
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 85
+     [ passed ] msg, expected = 87, actual = 87
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 5a, actual = 5a
+                top.th.sink.sink checking message number 35
+     [ passed ] msg, expected = 3a, actual = 3a
+                top.th.sink.sink checking message number 95
+     [ passed ] msg, expected = 1b, actual = 1b
+                top.th.sink.sink checking message number 41
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 16
+     [ passed ] msg, expected = d8, actual = d8
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 74, actual = 74
+                top.th.sink.sink checking message number 87
+     [ passed ] msg, expected = 9d, actual = 9d
+                top.th.sink.sink checking message number 15
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 86
+     [ passed ] msg, expected = f4, actual = f4
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = be, actual = be
+                top.th.sink.sink checking message number 52
+     [ passed ] msg, expected = 76, actual = 76
+                top.th.sink.sink checking message number 93
+     [ passed ] msg, expected = fb, actual = fb
+                top.th.sink.sink checking message number 53
+     [ passed ] msg, expected = 62, actual = 62
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 27, actual = 27
+                top.th.sink.sink checking message number 59
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 90
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = e8, actual = e8
+                top.th.sink.sink checking message number 99
+     [ passed ] msg, expected = 2f, actual = 2f
+                top.th.sink.sink checking message number 22
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 36
+     [ passed ] msg, expected = d6, actual = d6
+                top.th.sink.sink checking message number 66
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 97
+     [ passed ] msg, expected = 3e, actual = 3e
+                top.th.sink.sink checking message number 69
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 82
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 80
+     [ passed ] msg, expected = 5c, actual = 5c
+                top.th.sink.sink checking message number 47
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 63
+     [ passed ] msg, expected = b6, actual = b6
+                top.th.sink.sink checking message number 29
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 40
+     [ passed ] msg, expected = 0e, actual = 0e
+                top.th.sink.sink checking message number 61
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 94
+     [ passed ] msg, expected = 92, actual = 92
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 2: src delay = 1, sink delay = 1
+                top.th.sink.sink checking message number 100
+     [ passed ] msg, expected = 04, actual = 04
+                top.th.sink.sink checking message number 71
+     [ passed ] msg, expected = 78, actual = 78
+                top.th.sink.sink checking message number 37
+     [ passed ] msg, expected = 99, actual = 99
+                top.th.sink.sink checking message number 27
+     [ passed ] msg, expected = 6d, actual = 6d
+                top.th.sink.sink checking message number 92
+     [ passed ] msg, expected = 9c, actual = 9c
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = ba, actual = ba
+                top.th.sink.sink checking message number 50
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 13
+     [ passed ] msg, expected = f7, actual = f7
+                top.th.sink.sink checking message number 30
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 51
+     [ passed ] msg, expected = ab, actual = ab
+                top.th.sink.sink checking message number 17
+     [ passed ] msg, expected = b9, actual = b9
+                top.th.sink.sink checking message number 48
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 54
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 62
+     [ passed ] msg, expected = 82, actual = 82
+                top.th.sink.sink checking message number 25
+     [ passed ] msg, expected = 44, actual = 44
+                top.th.sink.sink checking message number 19
+     [ passed ] msg, expected = fe, actual = fe
+                top.th.sink.sink checking message number 67
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 38
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 50, actual = 50
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 22, actual = 22
+                top.th.sink.sink checking message number 76
+     [ passed ] msg, expected = 69, actual = 69
+                top.th.sink.sink checking message number 49
+     [ passed ] msg, expected = 92, actual = 92
+                top.th.sink.sink checking message number 26
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 24
+     [ passed ] msg, expected = 21, actual = 21
+                top.th.sink.sink checking message number 43
+     [ passed ] msg, expected = ff, actual = ff
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = ad, actual = ad
+                top.th.sink.sink checking message number 73
+     [ passed ] msg, expected = 01, actual = 01
+                top.th.sink.sink checking message number 64
+     [ passed ] msg, expected = 64, actual = 64
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = b0, actual = b0
+                top.th.sink.sink checking message number 70
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 20
+     [ passed ] msg, expected = f0, actual = f0
+                top.th.sink.sink checking message number 79
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 14
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 33
+     [ passed ] msg, expected = 55, actual = 55
+                top.th.sink.sink checking message number 83
+     [ passed ] msg, expected = 63, actual = 63
+                top.th.sink.sink checking message number 21
+     [ passed ] msg, expected = 71, actual = 71
+                top.th.sink.sink checking message number 84
+     [ passed ] msg, expected = 90, actual = 90
+                top.th.sink.sink checking message number 91
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 96
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 15, actual = 15
+                top.th.sink.sink checking message number 75
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 44
+     [ passed ] msg, expected = 7f, actual = 7f
+                top.th.sink.sink checking message number 28
+     [ passed ] msg, expected = 31, actual = 31
+                top.th.sink.sink checking message number 68
+     [ passed ] msg, expected = 0c, actual = 0c
+                top.th.sink.sink checking message number 18
+     [ passed ] msg, expected = 47, actual = 47
+                top.th.sink.sink checking message number 42
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 65
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 46
+     [ passed ] msg, expected = 7a, actual = 7a
+                top.th.sink.sink checking message number 77
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 56
+     [ passed ] msg, expected = 0b, actual = 0b
+                top.th.sink.sink checking message number 32
+     [ passed ] msg, expected = aa, actual = aa
+                top.th.sink.sink checking message number 31
+     [ passed ] msg, expected = 3d, actual = 3d
+                top.th.sink.sink checking message number 98
+     [ passed ] msg, expected = 4e, actual = 4e
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 20, actual = 20
+                top.th.sink.sink checking message number 58
+     [ passed ] msg, expected = 70, actual = 70
+                top.th.sink.sink checking message number 55
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 72
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 88
+     [ passed ] msg, expected = 60, actual = 60
+                top.th.sink.sink checking message number 39
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 60
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 34
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 57
+     [ passed ] msg, expected = 46, actual = 46
+                top.th.sink.sink checking message number 78
+     [ passed ] msg, expected = 88, actual = 88
+                top.th.sink.sink checking message number 81
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 23
+     [ passed ] msg, expected = 0d, actual = 0d
+                top.th.sink.sink checking message number 74
+     [ passed ] msg, expected = c2, actual = c2
+                top.th.sink.sink checking message number 89
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 85
+     [ passed ] msg, expected = 87, actual = 87
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 5a, actual = 5a
+                top.th.sink.sink checking message number 35
+     [ passed ] msg, expected = 3a, actual = 3a
+                top.th.sink.sink checking message number 95
+     [ passed ] msg, expected = 1b, actual = 1b
+                top.th.sink.sink checking message number 41
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 16
+     [ passed ] msg, expected = d8, actual = d8
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 74, actual = 74
+                top.th.sink.sink checking message number 87
+     [ passed ] msg, expected = 9d, actual = 9d
+                top.th.sink.sink checking message number 15
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 86
+     [ passed ] msg, expected = f4, actual = f4
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = be, actual = be
+                top.th.sink.sink checking message number 52
+     [ passed ] msg, expected = 76, actual = 76
+                top.th.sink.sink checking message number 93
+     [ passed ] msg, expected = fb, actual = fb
+                top.th.sink.sink checking message number 53
+     [ passed ] msg, expected = 62, actual = 62
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 27, actual = 27
+                top.th.sink.sink checking message number 59
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 90
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = e8, actual = e8
+                top.th.sink.sink checking message number 99
+     [ passed ] msg, expected = 2f, actual = 2f
+                top.th.sink.sink checking message number 22
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 36
+     [ passed ] msg, expected = d6, actual = d6
+                top.th.sink.sink checking message number 66
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 97
+     [ passed ] msg, expected = 3e, actual = 3e
+                top.th.sink.sink checking message number 69
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 82
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 80
+     [ passed ] msg, expected = 5c, actual = 5c
+                top.th.sink.sink checking message number 47
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 63
+     [ passed ] msg, expected = b6, actual = b6
+                top.th.sink.sink checking message number 29
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 40
+     [ passed ] msg, expected = 0e, actual = 0e
+                top.th.sink.sink checking message number 61
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 94
+     [ passed ] msg, expected = 92, actual = 92
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 3: src delay = 2, sink delay = 2
+                top.th.sink.sink checking message number 100
+     [ passed ] msg, expected = 04, actual = 04
+                top.th.sink.sink checking message number 71
+     [ passed ] msg, expected = 78, actual = 78
+                top.th.sink.sink checking message number 37
+     [ passed ] msg, expected = 99, actual = 99
+                top.th.sink.sink checking message number 27
+     [ passed ] msg, expected = 6d, actual = 6d
+                top.th.sink.sink checking message number 92
+     [ passed ] msg, expected = 9c, actual = 9c
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = ba, actual = ba
+                top.th.sink.sink checking message number 50
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 13
+     [ passed ] msg, expected = f7, actual = f7
+                top.th.sink.sink checking message number 30
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 51
+     [ passed ] msg, expected = ab, actual = ab
+                top.th.sink.sink checking message number 17
+     [ passed ] msg, expected = b9, actual = b9
+                top.th.sink.sink checking message number 48
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 54
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 62
+     [ passed ] msg, expected = 82, actual = 82
+                top.th.sink.sink checking message number 25
+     [ passed ] msg, expected = 44, actual = 44
+                top.th.sink.sink checking message number 19
+     [ passed ] msg, expected = fe, actual = fe
+                top.th.sink.sink checking message number 67
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 38
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 50, actual = 50
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 22, actual = 22
+                top.th.sink.sink checking message number 76
+     [ passed ] msg, expected = 69, actual = 69
+                top.th.sink.sink checking message number 49
+     [ passed ] msg, expected = 92, actual = 92
+                top.th.sink.sink checking message number 26
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 24
+     [ passed ] msg, expected = 21, actual = 21
+                top.th.sink.sink checking message number 43
+     [ passed ] msg, expected = ff, actual = ff
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = ad, actual = ad
+                top.th.sink.sink checking message number 73
+     [ passed ] msg, expected = 01, actual = 01
+                top.th.sink.sink checking message number 64
+     [ passed ] msg, expected = 64, actual = 64
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = b0, actual = b0
+                top.th.sink.sink checking message number 70
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 20
+     [ passed ] msg, expected = f0, actual = f0
+                top.th.sink.sink checking message number 79
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 14
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 33
+     [ passed ] msg, expected = 55, actual = 55
+                top.th.sink.sink checking message number 83
+     [ passed ] msg, expected = 63, actual = 63
+                top.th.sink.sink checking message number 21
+     [ passed ] msg, expected = 71, actual = 71
+                top.th.sink.sink checking message number 84
+     [ passed ] msg, expected = 90, actual = 90
+                top.th.sink.sink checking message number 91
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 96
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 15, actual = 15
+                top.th.sink.sink checking message number 75
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 44
+     [ passed ] msg, expected = 7f, actual = 7f
+                top.th.sink.sink checking message number 28
+     [ passed ] msg, expected = 31, actual = 31
+                top.th.sink.sink checking message number 68
+     [ passed ] msg, expected = 0c, actual = 0c
+                top.th.sink.sink checking message number 18
+     [ passed ] msg, expected = 47, actual = 47
+                top.th.sink.sink checking message number 42
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 65
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 46
+     [ passed ] msg, expected = 7a, actual = 7a
+                top.th.sink.sink checking message number 77
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 56
+     [ passed ] msg, expected = 0b, actual = 0b
+                top.th.sink.sink checking message number 32
+     [ passed ] msg, expected = aa, actual = aa
+                top.th.sink.sink checking message number 31
+     [ passed ] msg, expected = 3d, actual = 3d
+                top.th.sink.sink checking message number 98
+     [ passed ] msg, expected = 4e, actual = 4e
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 20, actual = 20
+                top.th.sink.sink checking message number 58
+     [ passed ] msg, expected = 70, actual = 70
+                top.th.sink.sink checking message number 55
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 72
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 88
+     [ passed ] msg, expected = 60, actual = 60
+                top.th.sink.sink checking message number 39
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 60
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 34
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 57
+     [ passed ] msg, expected = 46, actual = 46
+                top.th.sink.sink checking message number 78
+     [ passed ] msg, expected = 88, actual = 88
+                top.th.sink.sink checking message number 81
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 23
+     [ passed ] msg, expected = 0d, actual = 0d
+                top.th.sink.sink checking message number 74
+     [ passed ] msg, expected = c2, actual = c2
+                top.th.sink.sink checking message number 89
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 85
+     [ passed ] msg, expected = 87, actual = 87
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 5a, actual = 5a
+                top.th.sink.sink checking message number 35
+     [ passed ] msg, expected = 3a, actual = 3a
+                top.th.sink.sink checking message number 95
+     [ passed ] msg, expected = 1b, actual = 1b
+                top.th.sink.sink checking message number 41
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 16
+     [ passed ] msg, expected = d8, actual = d8
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 74, actual = 74
+                top.th.sink.sink checking message number 87
+     [ passed ] msg, expected = 9d, actual = 9d
+                top.th.sink.sink checking message number 15
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 86
+     [ passed ] msg, expected = f4, actual = f4
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = be, actual = be
+                top.th.sink.sink checking message number 52
+     [ passed ] msg, expected = 76, actual = 76
+                top.th.sink.sink checking message number 93
+     [ passed ] msg, expected = fb, actual = fb
+                top.th.sink.sink checking message number 53
+     [ passed ] msg, expected = 62, actual = 62
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 27, actual = 27
+                top.th.sink.sink checking message number 59
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 90
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = e8, actual = e8
+                top.th.sink.sink checking message number 99
+     [ passed ] msg, expected = 2f, actual = 2f
+                top.th.sink.sink checking message number 22
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 36
+     [ passed ] msg, expected = d6, actual = d6
+                top.th.sink.sink checking message number 66
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 97
+     [ passed ] msg, expected = 3e, actual = 3e
+                top.th.sink.sink checking message number 69
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 82
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 80
+     [ passed ] msg, expected = 5c, actual = 5c
+                top.th.sink.sink checking message number 47
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 63
+     [ passed ] msg, expected = b6, actual = b6
+                top.th.sink.sink checking message number 29
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 40
+     [ passed ] msg, expected = 0e, actual = 0e
+                top.th.sink.sink checking message number 61
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 94
+     [ passed ] msg, expected = 92, actual = 92
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 4: src delay = 10, sink delay = 10
+                top.th.sink.sink checking message number 100
+     [ passed ] msg, expected = 04, actual = 04
+                top.th.sink.sink checking message number 71
+     [ passed ] msg, expected = 78, actual = 78
+                top.th.sink.sink checking message number 37
+     [ passed ] msg, expected = 99, actual = 99
+                top.th.sink.sink checking message number 27
+     [ passed ] msg, expected = 6d, actual = 6d
+                top.th.sink.sink checking message number 92
+     [ passed ] msg, expected = 9c, actual = 9c
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = ba, actual = ba
+                top.th.sink.sink checking message number 50
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 13
+     [ passed ] msg, expected = f7, actual = f7
+                top.th.sink.sink checking message number 30
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 51
+     [ passed ] msg, expected = ab, actual = ab
+                top.th.sink.sink checking message number 17
+     [ passed ] msg, expected = b9, actual = b9
+                top.th.sink.sink checking message number 48
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 54
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 62
+     [ passed ] msg, expected = 82, actual = 82
+                top.th.sink.sink checking message number 25
+     [ passed ] msg, expected = 44, actual = 44
+                top.th.sink.sink checking message number 19
+     [ passed ] msg, expected = fe, actual = fe
+                top.th.sink.sink checking message number 67
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 38
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 50, actual = 50
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 22, actual = 22
+                top.th.sink.sink checking message number 76
+     [ passed ] msg, expected = 69, actual = 69
+                top.th.sink.sink checking message number 49
+     [ passed ] msg, expected = 92, actual = 92
+                top.th.sink.sink checking message number 26
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 24
+     [ passed ] msg, expected = 21, actual = 21
+                top.th.sink.sink checking message number 43
+     [ passed ] msg, expected = ff, actual = ff
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = ad, actual = ad
+                top.th.sink.sink checking message number 73
+     [ passed ] msg, expected = 01, actual = 01
+                top.th.sink.sink checking message number 64
+     [ passed ] msg, expected = 64, actual = 64
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = b0, actual = b0
+                top.th.sink.sink checking message number 70
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 20
+     [ passed ] msg, expected = f0, actual = f0
+                top.th.sink.sink checking message number 79
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 14
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 33
+     [ passed ] msg, expected = 55, actual = 55
+                top.th.sink.sink checking message number 83
+     [ passed ] msg, expected = 63, actual = 63
+                top.th.sink.sink checking message number 21
+     [ passed ] msg, expected = 71, actual = 71
+                top.th.sink.sink checking message number 84
+     [ passed ] msg, expected = 90, actual = 90
+                top.th.sink.sink checking message number 91
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 96
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 15, actual = 15
+                top.th.sink.sink checking message number 75
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 44
+     [ passed ] msg, expected = 7f, actual = 7f
+                top.th.sink.sink checking message number 28
+     [ passed ] msg, expected = 31, actual = 31
+                top.th.sink.sink checking message number 68
+     [ passed ] msg, expected = 0c, actual = 0c
+                top.th.sink.sink checking message number 18
+     [ passed ] msg, expected = 47, actual = 47
+                top.th.sink.sink checking message number 42
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 65
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 46
+     [ passed ] msg, expected = 7a, actual = 7a
+                top.th.sink.sink checking message number 77
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 56
+     [ passed ] msg, expected = 0b, actual = 0b
+                top.th.sink.sink checking message number 32
+     [ passed ] msg, expected = aa, actual = aa
+                top.th.sink.sink checking message number 31
+     [ passed ] msg, expected = 3d, actual = 3d
+                top.th.sink.sink checking message number 98
+     [ passed ] msg, expected = 4e, actual = 4e
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 20, actual = 20
+                top.th.sink.sink checking message number 58
+     [ passed ] msg, expected = 70, actual = 70
+                top.th.sink.sink checking message number 55
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 72
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 88
+     [ passed ] msg, expected = 60, actual = 60
+                top.th.sink.sink checking message number 39
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 60
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 34
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 57
+     [ passed ] msg, expected = 46, actual = 46
+                top.th.sink.sink checking message number 78
+     [ passed ] msg, expected = 88, actual = 88
+                top.th.sink.sink checking message number 81
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 23
+     [ passed ] msg, expected = 0d, actual = 0d
+                top.th.sink.sink checking message number 74
+     [ passed ] msg, expected = c2, actual = c2
+                top.th.sink.sink checking message number 89
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 85
+     [ passed ] msg, expected = 87, actual = 87
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 5a, actual = 5a
+                top.th.sink.sink checking message number 35
+     [ passed ] msg, expected = 3a, actual = 3a
+                top.th.sink.sink checking message number 95
+     [ passed ] msg, expected = 1b, actual = 1b
+                top.th.sink.sink checking message number 41
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 16
+     [ passed ] msg, expected = d8, actual = d8
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 74, actual = 74
+                top.th.sink.sink checking message number 87
+     [ passed ] msg, expected = 9d, actual = 9d
+                top.th.sink.sink checking message number 15
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 86
+     [ passed ] msg, expected = f4, actual = f4
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = be, actual = be
+                top.th.sink.sink checking message number 52
+     [ passed ] msg, expected = 76, actual = 76
+                top.th.sink.sink checking message number 93
+     [ passed ] msg, expected = fb, actual = fb
+                top.th.sink.sink checking message number 53
+     [ passed ] msg, expected = 62, actual = 62
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 27, actual = 27
+                top.th.sink.sink checking message number 59
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 90
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = e8, actual = e8
+                top.th.sink.sink checking message number 99
+     [ passed ] msg, expected = 2f, actual = 2f
+                top.th.sink.sink checking message number 22
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 36
+     [ passed ] msg, expected = d6, actual = d6
+                top.th.sink.sink checking message number 66
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 97
+     [ passed ] msg, expected = 3e, actual = 3e
+                top.th.sink.sink checking message number 69
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 82
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 80
+     [ passed ] msg, expected = 5c, actual = 5c
+                top.th.sink.sink checking message number 47
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 63
+     [ passed ] msg, expected = b6, actual = b6
+                top.th.sink.sink checking message number 29
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 40
+     [ passed ] msg, expected = 0e, actual = 0e
+                top.th.sink.sink checking message number 61
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 94
+     [ passed ] msg, expected = 92, actual = 92
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 5: src delay = 3, sink delay = 10
+                top.th.sink.sink checking message number 100
+     [ passed ] msg, expected = 04, actual = 04
+                top.th.sink.sink checking message number 71
+     [ passed ] msg, expected = 78, actual = 78
+                top.th.sink.sink checking message number 37
+     [ passed ] msg, expected = 99, actual = 99
+                top.th.sink.sink checking message number 27
+     [ passed ] msg, expected = 6d, actual = 6d
+                top.th.sink.sink checking message number 92
+     [ passed ] msg, expected = 9c, actual = 9c
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = ba, actual = ba
+                top.th.sink.sink checking message number 50
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 13
+     [ passed ] msg, expected = f7, actual = f7
+                top.th.sink.sink checking message number 30
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 51
+     [ passed ] msg, expected = ab, actual = ab
+                top.th.sink.sink checking message number 17
+     [ passed ] msg, expected = b9, actual = b9
+                top.th.sink.sink checking message number 48
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 54
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 62
+     [ passed ] msg, expected = 82, actual = 82
+                top.th.sink.sink checking message number 25
+     [ passed ] msg, expected = 44, actual = 44
+                top.th.sink.sink checking message number 19
+     [ passed ] msg, expected = fe, actual = fe
+                top.th.sink.sink checking message number 67
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 38
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 50, actual = 50
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 22, actual = 22
+                top.th.sink.sink checking message number 76
+     [ passed ] msg, expected = 69, actual = 69
+                top.th.sink.sink checking message number 49
+     [ passed ] msg, expected = 92, actual = 92
+                top.th.sink.sink checking message number 26
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 24
+     [ passed ] msg, expected = 21, actual = 21
+                top.th.sink.sink checking message number 43
+     [ passed ] msg, expected = ff, actual = ff
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = ad, actual = ad
+                top.th.sink.sink checking message number 73
+     [ passed ] msg, expected = 01, actual = 01
+                top.th.sink.sink checking message number 64
+     [ passed ] msg, expected = 64, actual = 64
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = b0, actual = b0
+                top.th.sink.sink checking message number 70
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 20
+     [ passed ] msg, expected = f0, actual = f0
+                top.th.sink.sink checking message number 79
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 14
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 33
+     [ passed ] msg, expected = 55, actual = 55
+                top.th.sink.sink checking message number 83
+     [ passed ] msg, expected = 63, actual = 63
+                top.th.sink.sink checking message number 21
+     [ passed ] msg, expected = 71, actual = 71
+                top.th.sink.sink checking message number 84
+     [ passed ] msg, expected = 90, actual = 90
+                top.th.sink.sink checking message number 91
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 96
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 15, actual = 15
+                top.th.sink.sink checking message number 75
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 44
+     [ passed ] msg, expected = 7f, actual = 7f
+                top.th.sink.sink checking message number 28
+     [ passed ] msg, expected = 31, actual = 31
+                top.th.sink.sink checking message number 68
+     [ passed ] msg, expected = 0c, actual = 0c
+                top.th.sink.sink checking message number 18
+     [ passed ] msg, expected = 47, actual = 47
+                top.th.sink.sink checking message number 42
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 65
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 46
+     [ passed ] msg, expected = 7a, actual = 7a
+                top.th.sink.sink checking message number 77
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 56
+     [ passed ] msg, expected = 0b, actual = 0b
+                top.th.sink.sink checking message number 32
+     [ passed ] msg, expected = aa, actual = aa
+                top.th.sink.sink checking message number 31
+     [ passed ] msg, expected = 3d, actual = 3d
+                top.th.sink.sink checking message number 98
+     [ passed ] msg, expected = 4e, actual = 4e
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 20, actual = 20
+                top.th.sink.sink checking message number 58
+     [ passed ] msg, expected = 70, actual = 70
+                top.th.sink.sink checking message number 55
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 72
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 88
+     [ passed ] msg, expected = 60, actual = 60
+                top.th.sink.sink checking message number 39
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 60
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 34
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 57
+     [ passed ] msg, expected = 46, actual = 46
+                top.th.sink.sink checking message number 78
+     [ passed ] msg, expected = 88, actual = 88
+                top.th.sink.sink checking message number 81
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 23
+     [ passed ] msg, expected = 0d, actual = 0d
+                top.th.sink.sink checking message number 74
+     [ passed ] msg, expected = c2, actual = c2
+                top.th.sink.sink checking message number 89
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 85
+     [ passed ] msg, expected = 87, actual = 87
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 5a, actual = 5a
+                top.th.sink.sink checking message number 35
+     [ passed ] msg, expected = 3a, actual = 3a
+                top.th.sink.sink checking message number 95
+     [ passed ] msg, expected = 1b, actual = 1b
+                top.th.sink.sink checking message number 41
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 16
+     [ passed ] msg, expected = d8, actual = d8
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 74, actual = 74
+                top.th.sink.sink checking message number 87
+     [ passed ] msg, expected = 9d, actual = 9d
+                top.th.sink.sink checking message number 15
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 86
+     [ passed ] msg, expected = f4, actual = f4
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = be, actual = be
+                top.th.sink.sink checking message number 52
+     [ passed ] msg, expected = 76, actual = 76
+                top.th.sink.sink checking message number 93
+     [ passed ] msg, expected = fb, actual = fb
+                top.th.sink.sink checking message number 53
+     [ passed ] msg, expected = 62, actual = 62
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 27, actual = 27
+                top.th.sink.sink checking message number 59
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 90
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = e8, actual = e8
+                top.th.sink.sink checking message number 99
+     [ passed ] msg, expected = 2f, actual = 2f
+                top.th.sink.sink checking message number 22
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 36
+     [ passed ] msg, expected = d6, actual = d6
+                top.th.sink.sink checking message number 66
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 97
+     [ passed ] msg, expected = 3e, actual = 3e
+                top.th.sink.sink checking message number 69
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 82
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 80
+     [ passed ] msg, expected = 5c, actual = 5c
+                top.th.sink.sink checking message number 47
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 63
+     [ passed ] msg, expected = b6, actual = b6
+                top.th.sink.sink checking message number 29
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 40
+     [ passed ] msg, expected = 0e, actual = 0e
+                top.th.sink.sink checking message number 61
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 94
+     [ passed ] msg, expected = 92, actual = 92
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 6: src delay = 10, sink delay = 3
+                top.th.sink.sink checking message number 100
+     [ passed ] msg, expected = 04, actual = 04
+                top.th.sink.sink checking message number 71
+     [ passed ] msg, expected = 78, actual = 78
+                top.th.sink.sink checking message number 37
+     [ passed ] msg, expected = 99, actual = 99
+                top.th.sink.sink checking message number 27
+     [ passed ] msg, expected = 6d, actual = 6d
+                top.th.sink.sink checking message number 92
+     [ passed ] msg, expected = 9c, actual = 9c
+                top.th.sink.sink checking message number 1
+     [ passed ] msg, expected = ba, actual = ba
+                top.th.sink.sink checking message number 50
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 13
+     [ passed ] msg, expected = f7, actual = f7
+                top.th.sink.sink checking message number 30
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 9
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 51
+     [ passed ] msg, expected = ab, actual = ab
+                top.th.sink.sink checking message number 17
+     [ passed ] msg, expected = b9, actual = b9
+                top.th.sink.sink checking message number 48
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 54
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 62
+     [ passed ] msg, expected = 82, actual = 82
+                top.th.sink.sink checking message number 25
+     [ passed ] msg, expected = 44, actual = 44
+                top.th.sink.sink checking message number 19
+     [ passed ] msg, expected = fe, actual = fe
+                top.th.sink.sink checking message number 67
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 38
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 10
+     [ passed ] msg, expected = 50, actual = 50
+                top.th.sink.sink checking message number 8
+     [ passed ] msg, expected = 22, actual = 22
+                top.th.sink.sink checking message number 76
+     [ passed ] msg, expected = 69, actual = 69
+                top.th.sink.sink checking message number 49
+     [ passed ] msg, expected = 92, actual = 92
+                top.th.sink.sink checking message number 26
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 24
+     [ passed ] msg, expected = 21, actual = 21
+                top.th.sink.sink checking message number 43
+     [ passed ] msg, expected = ff, actual = ff
+                top.th.sink.sink checking message number 0
+     [ passed ] msg, expected = ad, actual = ad
+                top.th.sink.sink checking message number 73
+     [ passed ] msg, expected = 01, actual = 01
+                top.th.sink.sink checking message number 64
+     [ passed ] msg, expected = 64, actual = 64
+                top.th.sink.sink checking message number 12
+     [ passed ] msg, expected = b0, actual = b0
+                top.th.sink.sink checking message number 70
+     [ passed ] msg, expected = 2d, actual = 2d
+                top.th.sink.sink checking message number 20
+     [ passed ] msg, expected = f0, actual = f0
+                top.th.sink.sink checking message number 79
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 14
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 33
+     [ passed ] msg, expected = 55, actual = 55
+                top.th.sink.sink checking message number 83
+     [ passed ] msg, expected = 63, actual = 63
+                top.th.sink.sink checking message number 21
+     [ passed ] msg, expected = 71, actual = 71
+                top.th.sink.sink checking message number 84
+     [ passed ] msg, expected = 90, actual = 90
+                top.th.sink.sink checking message number 91
+     [ passed ] msg, expected = d2, actual = d2
+                top.th.sink.sink checking message number 96
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 5
+     [ passed ] msg, expected = 15, actual = 15
+                top.th.sink.sink checking message number 75
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 44
+     [ passed ] msg, expected = 7f, actual = 7f
+                top.th.sink.sink checking message number 28
+     [ passed ] msg, expected = 31, actual = 31
+                top.th.sink.sink checking message number 68
+     [ passed ] msg, expected = 0c, actual = 0c
+                top.th.sink.sink checking message number 18
+     [ passed ] msg, expected = 47, actual = 47
+                top.th.sink.sink checking message number 42
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 65
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 46
+     [ passed ] msg, expected = 7a, actual = 7a
+                top.th.sink.sink checking message number 77
+     [ passed ] msg, expected = b1, actual = b1
+                top.th.sink.sink checking message number 56
+     [ passed ] msg, expected = 0b, actual = 0b
+                top.th.sink.sink checking message number 32
+     [ passed ] msg, expected = aa, actual = aa
+                top.th.sink.sink checking message number 31
+     [ passed ] msg, expected = 3d, actual = 3d
+                top.th.sink.sink checking message number 98
+     [ passed ] msg, expected = 4e, actual = 4e
+                top.th.sink.sink checking message number 6
+     [ passed ] msg, expected = 20, actual = 20
+                top.th.sink.sink checking message number 58
+     [ passed ] msg, expected = 70, actual = 70
+                top.th.sink.sink checking message number 55
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 72
+     [ passed ] msg, expected = 29, actual = 29
+                top.th.sink.sink checking message number 88
+     [ passed ] msg, expected = 60, actual = 60
+                top.th.sink.sink checking message number 39
+     [ passed ] msg, expected = 94, actual = 94
+                top.th.sink.sink checking message number 60
+     [ passed ] msg, expected = 54, actual = 54
+                top.th.sink.sink checking message number 34
+     [ passed ] msg, expected = f9, actual = f9
+                top.th.sink.sink checking message number 57
+     [ passed ] msg, expected = 46, actual = 46
+                top.th.sink.sink checking message number 78
+     [ passed ] msg, expected = 88, actual = 88
+                top.th.sink.sink checking message number 81
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 23
+     [ passed ] msg, expected = 0d, actual = 0d
+                top.th.sink.sink checking message number 74
+     [ passed ] msg, expected = c2, actual = c2
+                top.th.sink.sink checking message number 89
+     [ passed ] msg, expected = b5, actual = b5
+                top.th.sink.sink checking message number 85
+     [ passed ] msg, expected = 87, actual = 87
+                top.th.sink.sink checking message number 3
+     [ passed ] msg, expected = 5a, actual = 5a
+                top.th.sink.sink checking message number 35
+     [ passed ] msg, expected = 3a, actual = 3a
+                top.th.sink.sink checking message number 95
+     [ passed ] msg, expected = 1b, actual = 1b
+                top.th.sink.sink checking message number 41
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 16
+     [ passed ] msg, expected = d8, actual = d8
+                top.th.sink.sink checking message number 4
+     [ passed ] msg, expected = 74, actual = 74
+                top.th.sink.sink checking message number 87
+     [ passed ] msg, expected = 9d, actual = 9d
+                top.th.sink.sink checking message number 15
+     [ passed ] msg, expected = ec, actual = ec
+                top.th.sink.sink checking message number 86
+     [ passed ] msg, expected = f4, actual = f4
+                top.th.sink.sink checking message number 2
+     [ passed ] msg, expected = be, actual = be
+                top.th.sink.sink checking message number 52
+     [ passed ] msg, expected = 76, actual = 76
+                top.th.sink.sink checking message number 93
+     [ passed ] msg, expected = fb, actual = fb
+                top.th.sink.sink checking message number 53
+     [ passed ] msg, expected = 62, actual = 62
+                top.th.sink.sink checking message number 11
+     [ passed ] msg, expected = 27, actual = 27
+                top.th.sink.sink checking message number 59
+     [ passed ] msg, expected = 5d, actual = 5d
+                top.th.sink.sink checking message number 90
+     [ passed ] msg, expected = 38, actual = 38
+                top.th.sink.sink checking message number 7
+     [ passed ] msg, expected = e8, actual = e8
+                top.th.sink.sink checking message number 99
+     [ passed ] msg, expected = 2f, actual = 2f
+                top.th.sink.sink checking message number 22
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 36
+     [ passed ] msg, expected = d6, actual = d6
+                top.th.sink.sink checking message number 66
+     [ passed ] msg, expected = 61, actual = 61
+                top.th.sink.sink checking message number 97
+     [ passed ] msg, expected = 3e, actual = 3e
+                top.th.sink.sink checking message number 69
+     [ passed ] msg, expected = fc, actual = fc
+                top.th.sink.sink checking message number 82
+     [ passed ] msg, expected = f8, actual = f8
+                top.th.sink.sink checking message number 80
+     [ passed ] msg, expected = 5c, actual = 5c
+                top.th.sink.sink checking message number 47
+     [ passed ] msg, expected = bb, actual = bb
+                top.th.sink.sink checking message number 63
+     [ passed ] msg, expected = b6, actual = b6
+                top.th.sink.sink checking message number 29
+     [ passed ] msg, expected = a0, actual = a0
+                top.th.sink.sink checking message number 40
+     [ passed ] msg, expected = 0e, actual = 0e
+                top.th.sink.sink checking message number 61
+     [ passed ] msg, expected = 97, actual = 97
+                top.th.sink.sink checking message number 94
+     [ passed ] msg, expected = 92, actual = 92
+     [ passed ]th_done, expected = 1, actual = 1
+

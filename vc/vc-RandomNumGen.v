@@ -45,7 +45,7 @@ module vc_RandomNumGen
 
   // We XOR higher order bits to create smaller output numbers
 
-  reg out;
+  reg [p_out_nbits-1:0] out;
 
   integer i;
   always @(*)

@@ -1,0 +1,58 @@
+
+ Test Suite: vc-crossbars
+  + Test Case 1: vc_Crossbar2_w32
+     [ passed ]t1_out0, expected = deadbeef, actual = deadbeef
+     [ passed ]t1_out1, expected = beeff00d, actual = beeff00d
+     [ passed ]t1_out0, expected = beeff00d, actual = beeff00d
+     [ passed ]t1_out1, expected = deadbeef, actual = deadbeef
+     [ passed ]t1_out0, expected = deadbeef, actual = deadbeef
+     [ passed ]t1_out1, expected = beeff00d, actual = beeff00d
+  + Test Case 2: vc_Crossbar3_w32
+     [ passed ]t2_out0, expected = deadbeef, actual = deadbeef
+     [ passed ]t2_out1, expected = beeff00d, actual = beeff00d
+     [ passed ]t2_out2, expected = cafebabe, actual = cafebabe
+     [ passed ]t2_out0, expected = deadbeef, actual = deadbeef
+     [ passed ]t2_out1, expected = cafebabe, actual = cafebabe
+     [ passed ]t2_out2, expected = beeff00d, actual = beeff00d
+     [ passed ]t2_out0, expected = beeff00d, actual = beeff00d
+     [ passed ]t2_out1, expected = cafebabe, actual = cafebabe
+     [ passed ]t2_out2, expected = deadbeef, actual = deadbeef
+     [ passed ]t2_out0, expected = beeff00d, actual = beeff00d
+     [ passed ]t2_out1, expected = deadbeef, actual = deadbeef
+     [ passed ]t2_out2, expected = cafebabe, actual = cafebabe
+     [ passed ]t2_out0, expected = cafebabe, actual = cafebabe
+     [ passed ]t2_out1, expected = beeff00d, actual = beeff00d
+     [ passed ]t2_out2, expected = deadbeef, actual = deadbeef
+     [ passed ]t2_out0, expected = cafebabe, actual = cafebabe
+     [ passed ]t2_out1, expected = deadbeef, actual = deadbeef
+     [ passed ]t2_out2, expected = beeff00d, actual = beeff00d
+  + Test Case 3: vc_Crossbar4_w32
+     [ passed ]t3_out0, expected = deadbeef, actual = deadbeef
+     [ passed ]t3_out1, expected = beeff00d, actual = beeff00d
+     [ passed ]t3_out2, expected = cafebabe, actual = cafebabe
+     [ passed ]t3_out3, expected = ff00ff00, actual = ff00ff00
+     [ passed ]t3_out0, expected = deadbeef, actual = deadbeef
+     [ passed ]t3_out1, expected = cafebabe, actual = cafebabe
+     [ passed ]t3_out2, expected = beeff00d, actual = beeff00d
+     [ passed ]t3_out3, expected = ff00ff00, actual = ff00ff00
+     [ passed ]t3_out0, expected = beeff00d, actual = beeff00d
+     [ passed ]t3_out1, expected = ff00ff00, actual = ff00ff00
+     [ passed ]t3_out2, expected = deadbeef, actual = deadbeef
+     [ passed ]t3_out3, expected = cafebabe, actual = cafebabe
+     [ passed ]t3_out0, expected = ff00ff00, actual = ff00ff00
+     [ passed ]t3_out1, expected = deadbeef, actual = deadbeef
+     [ passed ]t3_out2, expected = cafebabe, actual = cafebabe
+     [ passed ]t3_out3, expected = beeff00d, actual = beeff00d
+     [ passed ]t3_out0, expected = cafebabe, actual = cafebabe
+     [ passed ]t3_out1, expected = beeff00d, actual = beeff00d
+     [ passed ]t3_out2, expected = ff00ff00, actual = ff00ff00
+     [ passed ]t3_out3, expected = deadbeef, actual = deadbeef
+     [ passed ]t3_out0, expected = ff00ff00, actual = ff00ff00
+     [ passed ]t3_out1, expected = deadbeef, actual = deadbeef
+     [ passed ]t3_out2, expected = beeff00d, actual = beeff00d
+     [ passed ]t3_out3, expected = cafebabe, actual = cafebabe
+     [ passed ]t3_out0, expected = beeff00d, actual = beeff00d
+     [ passed ]t3_out1, expected = deadbeef, actual = deadbeef
+     [ passed ]t3_out2, expected = cafebabe, actual = cafebabe
+     [ passed ]t3_out3, expected = ff00ff00, actual = ff00ff00
+

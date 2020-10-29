@@ -1,0 +1,45 @@
+
+ Test Suite: vc-muxes
+  + Test Case 1: vc_Mux2_w32
+     [ passed ]t1_out, expected = 0a0a0a0a, actual = 0a0a0a0a
+     [ passed ]t1_out, expected = b0b0b0b0, actual = b0b0b0b0
+  + Test Case 2: vc_Mux3_w32
+     [ passed ]t2_out, expected = 0a0a0a0a, actual = 0a0a0a0a
+     [ passed ]t2_out, expected = b0b0b0b0, actual = b0b0b0b0
+     [ passed ]t2_out, expected = 0c0c0c0c, actual = 0c0c0c0c
+  + Test Case 3: vc_Mux4_w32
+     [ passed ]t3_out, expected = 0a0a0a0a, actual = 0a0a0a0a
+     [ passed ]t3_out, expected = b0b0b0b0, actual = b0b0b0b0
+     [ passed ]t3_out, expected = 0c0c0c0c, actual = 0c0c0c0c
+     [ passed ]t3_out, expected = d0d0d0d0, actual = d0d0d0d0
+  + Test Case 4: vc_Mux5_w32
+     [ passed ]t4_out, expected = 0a0a0a0a, actual = 0a0a0a0a
+     [ passed ]t4_out, expected = b0b0b0b0, actual = b0b0b0b0
+     [ passed ]t4_out, expected = 0c0c0c0c, actual = 0c0c0c0c
+     [ passed ]t4_out, expected = d0d0d0d0, actual = d0d0d0d0
+     [ passed ]t4_out, expected = 0e0e0e0e, actual = 0e0e0e0e
+  + Test Case 5: vc_Mux6_w32
+     [ passed ]t5_out, expected = 0a0a0a0a, actual = 0a0a0a0a
+     [ passed ]t5_out, expected = b0b0b0b0, actual = b0b0b0b0
+     [ passed ]t5_out, expected = 0c0c0c0c, actual = 0c0c0c0c
+     [ passed ]t5_out, expected = d0d0d0d0, actual = d0d0d0d0
+     [ passed ]t5_out, expected = 0e0e0e0e, actual = 0e0e0e0e
+     [ passed ]t5_out, expected = f0f0f0f0, actual = f0f0f0f0
+  + Test Case 6: vc_Mux7_w32
+     [ passed ]t6_out, expected = 0a0a0a0a, actual = 0a0a0a0a
+     [ passed ]t6_out, expected = b0b0b0b0, actual = b0b0b0b0
+     [ passed ]t6_out, expected = 0c0c0c0c, actual = 0c0c0c0c
+     [ passed ]t6_out, expected = d0d0d0d0, actual = d0d0d0d0
+     [ passed ]t6_out, expected = 0e0e0e0e, actual = 0e0e0e0e
+     [ passed ]t6_out, expected = f0f0f0f0, actual = f0f0f0f0
+     [ passed ]t6_out, expected = 01010101, actual = 01010101
+  + Test Case 7: vc_Mux8_w32
+     [ passed ]t7_out, expected = 0a0a0a0a, actual = 0a0a0a0a
+     [ passed ]t7_out, expected = b0b0b0b0, actual = b0b0b0b0
+     [ passed ]t7_out, expected = 0c0c0c0c, actual = 0c0c0c0c
+     [ passed ]t7_out, expected = d0d0d0d0, actual = d0d0d0d0
+     [ passed ]t7_out, expected = 0e0e0e0e, actual = 0e0e0e0e
+     [ passed ]t7_out, expected = f0f0f0f0, actual = f0f0f0f0
+     [ passed ]t7_out, expected = 01010101, actual = 01010101
+     [ passed ]t7_out, expected = 20202020, actual = 20202020
+

@@ -1,0 +1,59 @@
+
+ Test Suite: vc-TestUnorderedSink
+  + Test Case 1: ordered 8b messages
+                top.t1.sink checking message number 6
+     [ passed ] msg, expected = aa, actual = aa
+                top.t1.sink checking message number 0
+     [ passed ] msg, expected = bb, actual = bb
+                top.t1.sink checking message number 1
+     [ passed ] msg, expected = cc, actual = cc
+                top.t1.sink checking message number 2
+     [ passed ] msg, expected = dd, actual = dd
+                top.t1.sink checking message number 3
+     [ passed ] msg, expected = ee, actual = ee
+                top.t1.sink checking message number 4
+     [ passed ] msg, expected = ff, actual = ff
+     [ passed ]t1_done, expected = 1, actual = 1
+  + Test Case 2: ordered 13b messages
+                top.t2.sink checking message number 6
+     [ passed ] msg, expected = 11aa, actual = 11aa
+                top.t2.sink checking message number 0
+     [ passed ] msg, expected = 02bb, actual = 02bb
+                top.t2.sink checking message number 1
+     [ passed ] msg, expected = 13cc, actual = 13cc
+                top.t2.sink checking message number 2
+     [ passed ] msg, expected = 04dd, actual = 04dd
+                top.t2.sink checking message number 3
+     [ passed ] msg, expected = 15ee, actual = 15ee
+                top.t2.sink checking message number 4
+     [ passed ] msg, expected = 06ff, actual = 06ff
+     [ passed ]t2_done, expected = 1, actual = 1
+  + Test Case 3: ordered 8b messages
+                top.t3.sink checking message number 6
+     [ passed ] msg, expected = aa, actual = aa
+                top.t3.sink checking message number 3
+     [ passed ] msg, expected = bb, actual = bb
+                top.t3.sink checking message number 2
+     [ passed ] msg, expected = cc, actual = cc
+                top.t3.sink checking message number 1
+     [ passed ] msg, expected = dd, actual = dd
+                top.t3.sink checking message number 0
+     [ passed ] msg, expected = ee, actual = ee
+                top.t3.sink checking message number 5
+     [ passed ] msg, expected = ff, actual = ff
+     [ passed ]t3_done, expected = 1, actual = 1
+  + Test Case 4: ordered 13b messages
+                top.t4.sink checking message number 6
+     [ passed ] msg, expected = 11aa, actual = 11aa
+                top.t4.sink checking message number 5
+     [ passed ] msg, expected = 02bb, actual = 02bb
+                top.t4.sink checking message number 4
+     [ passed ] msg, expected = 13cc, actual = 13cc
+                top.t4.sink checking message number 3
+     [ passed ] msg, expected = 04dd, actual = 04dd
+                top.t4.sink checking message number 2
+     [ passed ] msg, expected = 15ee, actual = 15ee
+                top.t4.sink checking message number 1
+     [ passed ] msg, expected = 06ff, actual = 06ff
+     [ passed ]t4_done, expected = 1, actual = 1
+

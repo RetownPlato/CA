@@ -1,0 +1,297 @@
+
+ Test Suite: vc-TestMem_2ports
+  + Test Case 1: src delay = 0, sink delay = 0
+                top.th.sink1.sink checking message number 0
+     [ passed ] msg, expected = 0440zzzzzzzz, actual = 0440xxxxxxxx
+                top.th.sink0.sink checking message number 0
+     [ passed ] msg, expected = 0400zzzzzzzz, actual = 0400xxxxxxxx
+                top.th.sink0.sink checking message number 1
+     [ passed ] msg, expected = 0804zzzzzzzz, actual = 0804xxxxxxxx
+                top.th.sink1.sink checking message number 1
+     [ passed ] msg, expected = 0444zzzzzzzz, actual = 0444xxxxxxxx
+                top.th.sink1.sink checking message number 2
+     [ passed ] msg, expected = 00481a1b1c1d, actual = 00481a1b1c1d
+                top.th.sink0.sink checking message number 2
+     [ passed ] msg, expected = 00080a0b0c0d, actual = 00080a0b0c0d
+                top.th.sink0.sink checking message number 3
+     [ passed ] msg, expected = 000c0e0f0102, actual = 000c0e0f0102
+                top.th.sink1.sink checking message number 3
+     [ passed ] msg, expected = 004c1e1f1112, actual = 004c1e1f1112
+                top.th.sink1.sink checking message number 4
+     [ passed ] msg, expected = 0850zzzzzzzz, actual = 0850xxxxxxxx
+                top.th.sink0.sink checking message number 4
+     [ passed ] msg, expected = 0410zzzzzzzz, actual = 0410xxxxxxxx
+                top.th.sink0.sink checking message number 5
+     [ passed ] msg, expected = 0415zzzzzzzz, actual = 04150a0b0c0d
+                top.th.sink1.sink checking message number 5
+     [ passed ] msg, expected = 0455zzzzzzzz, actual = 04551a1b1c1d
+                top.th.sink1.sink checking message number 6
+     [ passed ] msg, expected = 0059zzzzzzef, actual = 00591a1b1cef
+                top.th.sink0.sink checking message number 6
+     [ passed ] msg, expected = 0019zzzzzzef, actual = 00190a0b0cef
+                top.th.sink0.sink checking message number 7
+     [ passed ] msg, expected = 001dzzzzzz0c, actual = 001d000a0b0c
+                top.th.sink1.sink checking message number 7
+     [ passed ] msg, expected = 005dzzzzzz1c, actual = 005d001a1b1c
+                top.th.sink1.sink checking message number 8
+     [ passed ] msg, expected = 0061zzzzzz1b, actual = 006100001a1b
+                top.th.sink0.sink checking message number 8
+     [ passed ] msg, expected = 0021zzzzzz0b, actual = 002100000a0b
+                top.th.sink0.sink checking message number 9
+     [ passed ] msg, expected = 0025zzzzzz0a, actual = 00250000000a
+                top.th.sink1.sink checking message number 9
+     [ passed ] msg, expected = 0065zzzzzz1a, actual = 00650000001a
+                top.th.sink1.sink checking message number 10
+     [ passed ] msg, expected = 0468zzzzzzzz, actual = 0468xxxxxxxx
+                top.th.sink0.sink checking message number 10
+     [ passed ] msg, expected = 0428zzzzzzzz, actual = 0428xxxxxxxx
+                top.th.sink0.sink checking message number 11
+     [ passed ] msg, expected = 042ezzzzzzzz, actual = 042e01020304
+                top.th.sink1.sink checking message number 11
+     [ passed ] msg, expected = 046ezzzzzzzz, actual = 046e11121314
+                top.th.sink1.sink checking message number 12
+     [ passed ] msg, expected = 0072zzzzbeef, actual = 00721112beef
+                top.th.sink0.sink checking message number 12
+     [ passed ] msg, expected = 0032zzzzbeef, actual = 00320102beef
+                top.th.sink0.sink checking message number 13
+     [ passed ] msg, expected = 0036zzzz0102, actual = 003600000102
+                top.th.sink1.sink checking message number 13
+     [ passed ] msg, expected = 0076zzzz1112, actual = 007600001112
+                top.th.sink1.sink checking message number 14
+     [ passed ] msg, expected = 0438zzzzzzzz, actual = 0438xxxxxxxx
+                top.th.sink0.sink checking message number 14
+     [ passed ] msg, expected = 0438zzzzzzzz, actual = 0438xxxxxxxx
+                top.th.sink0.sink checking message number 15
+     [ passed ] msg, expected = 043czzzzzzzz, actual = 043ca0b0c0d0
+                top.th.sink1.sink checking message number 15
+     [ passed ] msg, expected = 043czzzzzzzz, actual = 043ca0b0c0d0
+                top.th.sink1.sink checking message number 16
+     [ passed ] msg, expected = 0000e0102030, actual = 0000e0102030
+                top.th.sink0.sink checking message number 16
+     [ passed ] msg, expected = 0000e0102030, actual = 0000e0102030
+                top.th.sink0.sink checking message number 17
+     [ passed ] msg, expected = 0004e0102030, actual = 0004e0102030
+                top.th.sink1.sink checking message number 17
+     [ passed ] msg, expected = 0004e0102030, actual = 0004e0102030
+                top.th.sink1.sink checking message number 18
+     [ passed ] msg, expected = 14081a1b1c1d, actual = 14081a1b1c1d
+                top.th.sink0.sink checking message number 18
+     [ passed ] msg, expected = 14080a0b0c0d, actual = 14080a0b0c0d
+                top.th.sink0.sink checking message number 19
+     [ passed ] msg, expected = 000cfafbfcfd, actual = 000cfafbfcfd
+                top.th.sink1.sink checking message number 19
+     [ passed ] msg, expected = 000cfafbfcfd, actual = 000cfafbfcfd
+                top.th.sink1.sink checking message number 20
+     [ passed ] msg, expected = 0c101e1f1112, actual = 0c101e1f1112
+                top.th.sink0.sink checking message number 20
+     [ passed ] msg, expected = 0c100e0f0102, actual = 0c100e0f0102
+                top.th.sink0.sink checking message number 21
+     [ passed ] msg, expected = 00140e0f1101, actual = 00140e0f1101
+                top.th.sink1.sink checking message number 21
+     [ passed ] msg, expected = 00141e1f2111, actual = 00141e1f2111
+                top.th.sink1.sink checking message number 22
+     [ passed ] msg, expected = 1018fafbfcfd, actual = 1018fafbfcfd
+                top.th.sink0.sink checking message number 22
+     [ passed ] msg, expected = 1018fafbfcfd, actual = 1018fafbfcfd
+                top.th.sink0.sink checking message number 23
+     [ passed ] msg, expected = 001c32333031, actual = 001c32333031
+                top.th.sink1.sink checking message number 23
+     [ passed ] msg, expected = 001c32333031, actual = 001c32333031
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 2: src delay = 3, sink delay = 10
+                top.th.sink1.sink checking message number 0
+     [ passed ] msg, expected = 0440zzzzzzzz, actual = 0440xxxxxxxx
+                top.th.sink1.sink checking message number 1
+     [ passed ] msg, expected = 0444zzzzzzzz, actual = 0444xxxxxxxx
+                top.th.sink0.sink checking message number 0
+     [ passed ] msg, expected = 0400zzzzzzzz, actual = 0400xxxxxxxx
+                top.th.sink0.sink checking message number 1
+     [ passed ] msg, expected = 0804zzzzzzzz, actual = 08040e0f0102
+                top.th.sink1.sink checking message number 2
+     [ passed ] msg, expected = 00481a1b1c1d, actual = 00481a1b1c1d
+                top.th.sink1.sink checking message number 3
+     [ passed ] msg, expected = 004c1e1f1112, actual = 004c1e1f1112
+                top.th.sink0.sink checking message number 2
+     [ passed ] msg, expected = 00080a0b0c0d, actual = 00080a0b0c0d
+                top.th.sink1.sink checking message number 4
+     [ passed ] msg, expected = 0850zzzzzzzz, actual = 08501a1b1c1d
+                top.th.sink0.sink checking message number 3
+     [ passed ] msg, expected = 000c0e0f0102, actual = 000c0e0f0102
+                top.th.sink1.sink checking message number 5
+     [ passed ] msg, expected = 0455zzzzzzzz, actual = 04551a1b1cef
+                top.th.sink1.sink checking message number 6
+     [ passed ] msg, expected = 0059zzzzzzef, actual = 00591a1b1cef
+                top.th.sink0.sink checking message number 4
+     [ passed ] msg, expected = 0410zzzzzzzz, actual = 04100a0b0c0d
+                top.th.sink1.sink checking message number 7
+     [ passed ] msg, expected = 005dzzzzzz1c, actual = 005d001a1b1c
+                top.th.sink1.sink checking message number 8
+     [ passed ] msg, expected = 0061zzzzzz1b, actual = 006100001a1b
+                top.th.sink0.sink checking message number 5
+     [ passed ] msg, expected = 0415zzzzzzzz, actual = 04150a0b0cef
+                top.th.sink1.sink checking message number 9
+     [ passed ] msg, expected = 0065zzzzzz1a, actual = 00650000001a
+                top.th.sink0.sink checking message number 6
+     [ passed ] msg, expected = 0019zzzzzzef, actual = 00190a0b0cef
+                top.th.sink1.sink checking message number 10
+     [ passed ] msg, expected = 0468zzzzzzzz, actual = 046811121314
+                top.th.sink1.sink checking message number 11
+     [ passed ] msg, expected = 046ezzzzzzzz, actual = 046e1112beef
+                top.th.sink0.sink checking message number 7
+     [ passed ] msg, expected = 001dzzzzzz0c, actual = 001d000a0b0c
+                top.th.sink1.sink checking message number 12
+     [ passed ] msg, expected = 0072zzzzbeef, actual = 00721112beef
+                top.th.sink0.sink checking message number 8
+     [ passed ] msg, expected = 0021zzzzzz0b, actual = 002100000a0b
+                top.th.sink1.sink checking message number 13
+     [ passed ] msg, expected = 0076zzzz1112, actual = 007600001112
+                top.th.sink1.sink checking message number 14
+     [ passed ] msg, expected = 0438zzzzzzzz, actual = 0438a0b0c0d0
+                top.th.sink0.sink checking message number 9
+     [ passed ] msg, expected = 0025zzzzzz0a, actual = 00250000000a
+                top.th.sink1.sink checking message number 15
+     [ passed ] msg, expected = 043czzzzzzzz, actual = 043ce0102030
+                top.th.sink0.sink checking message number 10
+     [ passed ] msg, expected = 0428zzzzzzzz, actual = 042801020304
+                top.th.sink0.sink checking message number 11
+     [ passed ] msg, expected = 042ezzzzzzzz, actual = 042e0102beef
+                top.th.sink1.sink checking message number 16
+     [ passed ] msg, expected = 0000e0102030, actual = 0000e0102030
+                top.th.sink1.sink checking message number 17
+     [ passed ] msg, expected = 0004e0102030, actual = 0004e0102030
+                top.th.sink0.sink checking message number 12
+     [ passed ] msg, expected = 0032zzzzbeef, actual = 00320102beef
+                top.th.sink1.sink checking message number 18
+     [ passed ] msg, expected = 14081a1b1c1d, actual = 14081a1b1c1d
+                top.th.sink0.sink checking message number 13
+     [ passed ] msg, expected = 0036zzzz0102, actual = 003600000102
+                top.th.sink0.sink checking message number 14
+     [ passed ] msg, expected = 0438zzzzzzzz, actual = 0438a0b0c0d0
+                top.th.sink1.sink checking message number 19
+     [ passed ] msg, expected = 000cfafbfcfd, actual = 000cfafbfcfd
+                top.th.sink0.sink checking message number 15
+     [ passed ] msg, expected = 043czzzzzzzz, actual = 043ce0102030
+                top.th.sink1.sink checking message number 20
+     [ passed ] msg, expected = 0c101e1f1112, actual = 0c101e1f1112
+                top.th.sink0.sink checking message number 16
+     [ passed ] msg, expected = 0000e0102030, actual = 0000e0102030
+                top.th.sink1.sink checking message number 21
+     [ passed ] msg, expected = 00141e1f2111, actual = 00141e1f2111
+                top.th.sink1.sink checking message number 22
+     [ passed ] msg, expected = 1018fafbfcfd, actual = 1018fafbfcfd
+                top.th.sink0.sink checking message number 17
+     [ passed ] msg, expected = 0004e0102030, actual = 0004e0102030
+                top.th.sink0.sink checking message number 18
+     [ passed ] msg, expected = 14080a0b0c0d, actual = 14080a0b0c0d
+                top.th.sink1.sink checking message number 23
+     [ passed ] msg, expected = 001c32333031, actual = 001c32333031
+                top.th.sink0.sink checking message number 19
+     [ passed ] msg, expected = 000cfafbfcfd, actual = 000cfafbfcfd
+                top.th.sink0.sink checking message number 20
+     [ passed ] msg, expected = 0c100e0f0102, actual = 0c100e0f0102
+                top.th.sink0.sink checking message number 21
+     [ passed ] msg, expected = 00140e0f1101, actual = 00140e0f1101
+                top.th.sink0.sink checking message number 22
+     [ passed ] msg, expected = 1018fafbfcfd, actual = 1018fafbfcfd
+                top.th.sink0.sink checking message number 23
+     [ passed ] msg, expected = 001c32333031, actual = 001c32333031
+     [ passed ]th_done, expected = 1, actual = 1
+  + Test Case 3: src delay = 10, sink delay = 3
+                top.th.sink1.sink checking message number 0
+     [ passed ] msg, expected = 0440zzzzzzzz, actual = 0440xxxxxxxx
+                top.th.sink1.sink checking message number 1
+     [ passed ] msg, expected = 0444zzzzzzzz, actual = 04441e1f1112
+                top.th.sink1.sink checking message number 2
+     [ passed ] msg, expected = 00481a1b1c1d, actual = 00481a1b1c1d
+                top.th.sink0.sink checking message number 0
+     [ passed ] msg, expected = 0400zzzzzzzz, actual = 0400xxxxxxxx
+                top.th.sink1.sink checking message number 3
+     [ passed ] msg, expected = 004c1e1f1112, actual = 004c1e1f1112
+                top.th.sink1.sink checking message number 4
+     [ passed ] msg, expected = 0850zzzzzzzz, actual = 0850xxxxxxxx
+                top.th.sink0.sink checking message number 1
+     [ passed ] msg, expected = 0804zzzzzzzz, actual = 0804xxxxxxxx
+                top.th.sink1.sink checking message number 5
+     [ passed ] msg, expected = 0455zzzzzzzz, actual = 04551a1b1c1d
+                top.th.sink0.sink checking message number 2
+     [ passed ] msg, expected = 00080a0b0c0d, actual = 00080a0b0c0d
+                top.th.sink0.sink checking message number 3
+     [ passed ] msg, expected = 000c0e0f0102, actual = 000c0e0f0102
+                top.th.sink1.sink checking message number 6
+     [ passed ] msg, expected = 0059zzzzzzef, actual = 00591a1b1cef
+                top.th.sink1.sink checking message number 7
+     [ passed ] msg, expected = 005dzzzzzz1c, actual = 005d001a1b1c
+                top.th.sink0.sink checking message number 4
+     [ passed ] msg, expected = 0410zzzzzzzz, actual = 0410xxxxxxxx
+                top.th.sink0.sink checking message number 5
+     [ passed ] msg, expected = 0415zzzzzzzz, actual = 04150a0b0c0d
+                top.th.sink1.sink checking message number 8
+     [ passed ] msg, expected = 0061zzzzzz1b, actual = 006100001a1b
+                top.th.sink0.sink checking message number 6
+     [ passed ] msg, expected = 0019zzzzzzef, actual = 00190a0b0cef
+                top.th.sink1.sink checking message number 9
+     [ passed ] msg, expected = 0065zzzzzz1a, actual = 00650000001a
+                top.th.sink1.sink checking message number 10
+     [ passed ] msg, expected = 0468zzzzzzzz, actual = 046811121314
+                top.th.sink0.sink checking message number 7
+     [ passed ] msg, expected = 001dzzzzzz0c, actual = 001d000a0b0c
+                top.th.sink1.sink checking message number 11
+     [ passed ] msg, expected = 046ezzzzzzzz, actual = 046e11121314
+                top.th.sink0.sink checking message number 8
+     [ passed ] msg, expected = 0021zzzzzz0b, actual = 002100000a0b
+                top.th.sink1.sink checking message number 12
+     [ passed ] msg, expected = 0072zzzzbeef, actual = 00721112beef
+                top.th.sink1.sink checking message number 13
+     [ passed ] msg, expected = 0076zzzz1112, actual = 007600001112
+                top.th.sink0.sink checking message number 9
+     [ passed ] msg, expected = 0025zzzzzz0a, actual = 00250000000a
+                top.th.sink0.sink checking message number 10
+     [ passed ] msg, expected = 0428zzzzzzzz, actual = 042801020304
+                top.th.sink0.sink checking message number 11
+     [ passed ] msg, expected = 042ezzzzzzzz, actual = 042e01020304
+                top.th.sink1.sink checking message number 14
+     [ passed ] msg, expected = 0438zzzzzzzz, actual = 0438xxxxxxxx
+                top.th.sink0.sink checking message number 12
+     [ passed ] msg, expected = 0032zzzzbeef, actual = 00320102beef
+                top.th.sink1.sink checking message number 15
+     [ passed ] msg, expected = 043czzzzzzzz, actual = 043ca0b0c0d0
+                top.th.sink1.sink checking message number 16
+     [ passed ] msg, expected = 0000e0102030, actual = 0000e0102030
+                top.th.sink0.sink checking message number 13
+     [ passed ] msg, expected = 0036zzzz0102, actual = 003600000102
+                top.th.sink1.sink checking message number 17
+     [ passed ] msg, expected = 0004e0102030, actual = 0004e0102030
+                top.th.sink0.sink checking message number 14
+     [ passed ] msg, expected = 0438zzzzzzzz, actual = 0438xxxxxxxx
+                top.th.sink1.sink checking message number 18
+     [ passed ] msg, expected = 14081a1b1c1d, actual = 14081a1b1c1d
+                top.th.sink1.sink checking message number 19
+     [ passed ] msg, expected = 000cfafbfcfd, actual = 000cfafbfcfd
+                top.th.sink0.sink checking message number 15
+     [ passed ] msg, expected = 043czzzzzzzz, actual = 043ca0b0c0d0
+                top.th.sink0.sink checking message number 16
+     [ passed ] msg, expected = 0000e0102030, actual = 0000e0102030
+                top.th.sink1.sink checking message number 20
+     [ passed ] msg, expected = 0c101e1f1112, actual = 0c101e1f1112
+                top.th.sink0.sink checking message number 17
+     [ passed ] msg, expected = 0004e0102030, actual = 0004e0102030
+                top.th.sink0.sink checking message number 18
+     [ passed ] msg, expected = 14080a0b0c0d, actual = 14080a0b0c0d
+                top.th.sink1.sink checking message number 21
+     [ passed ] msg, expected = 00141e1f2111, actual = 00141e1f2111
+                top.th.sink0.sink checking message number 19
+     [ passed ] msg, expected = 000cfafbfcfd, actual = 000cfafbfcfd
+                top.th.sink1.sink checking message number 22
+     [ passed ] msg, expected = 1018fafbfcfd, actual = 1018fafbfcfd
+                top.th.sink0.sink checking message number 20
+     [ passed ] msg, expected = 0c100e0f0102, actual = 0c100e0f0102
+                top.th.sink1.sink checking message number 23
+     [ passed ] msg, expected = 001c32333031, actual = 001c32333031
+                top.th.sink0.sink checking message number 21
+     [ passed ] msg, expected = 00140e0f1101, actual = 00140e0f1101
+                top.th.sink0.sink checking message number 22
+     [ passed ] msg, expected = 1018fafbfcfd, actual = 1018fafbfcfd
+                top.th.sink0.sink checking message number 23
+     [ passed ] msg, expected = 001c32333031, actual = 001c32333031
+     [ passed ]th_done, expected = 1, actual = 1
+

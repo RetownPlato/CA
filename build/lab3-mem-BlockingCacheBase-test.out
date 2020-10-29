@@ -1,0 +1,9 @@
+
+ Test Suite: lab3-mem-BlockingCacheBase
+  + Test Case 1: basic test case 1: read hit path (clean)
+                top.th.sink.sink checking message number 0
+     [ FAILED ] msg, expected = 0800zzzzzzzz, actual = 000000000000
+                top.th.sink.sink checking message number 1
+     [ FAILED ] msg, expected = 00040a0b0c0d, actual = 000000000000
+     [ passed ]th_done, expected = 1, actual = 1
+
