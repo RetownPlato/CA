@@ -50,11 +50,14 @@ jobs:
           sudo ../configure 
           sudo make
           
-      - name: Test vc
+      - name: Test lab1
         run: |
-          echo Testing vc subproject
+          echo Testing lab1
           cd build
-          sudo make vc-check
+          sudo make lab1-imul-check
+          sudo make lab1-imul-IntMulFL-test   && ./lab1-imul-IntMulFL-test
+          sudo make lab1-imul-IntMulBase-test && ./lab1-imul-IntMulBase-test 
+          sudo make lab1-imul-check           && ./lab1-imul-IntMulAlt-test
               
       - name: Test All
         run: |
