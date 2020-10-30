@@ -158,6 +158,17 @@ module top;
     init( 8, 16'hffff, 16'h00ff, 16'hff );
   end
   endtask
+  
+  task init_coprime;
+  begin
+    //       a         b         result
+    init( 0, 16'd9,    16'd11,   16'd1  );
+    init( 1, 16'd21,   16'd17,   16'd1  );
+    init( 2, 16'd29,   16'd30,   16'd1  );
+    init( 3, 16'd19,   16'd27,   16'd1  );
+    init( 4, 16'd39,   16'd40,   16'd1 );
+  end
+  endtask
 
   // Helper task to initialize source/sink
 
@@ -256,6 +267,18 @@ module top;
   begin
     init_rand_delays( 3, 10 );
     `include "ex-gcd-gen-input_random-b.py.v"
+    run_test;
+  end
+  `VC_TEST_CASE_END
+  
+  //----------------------------------------------------------------------
+  // Test Case: src delay = 0, sink delay = 0, coprime dataset
+  //----------------------------------------------------------------------
+  
+  `VC_TEST_CASE_BEGIN( 7, "src delay = 0, sink delay = 0" )
+  begin
+    init_rand_delays( 0, 0 );
+    init_coprime;
     run_test;
   end
   `VC_TEST_CASE_END

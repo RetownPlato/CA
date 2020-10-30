@@ -56,11 +56,11 @@ jobs:
           name: build
           path: |
              build
-          
-      - name: Download build artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: build
     
-              
+     - name: Repository Dispatch
+       uses: peter-evans/repository-dispatch@v1
+       with:
+         token: ${{ secrets.REPO_ACCESS_TOKEN }}
+         event-type: test-pass
+         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'         
 
