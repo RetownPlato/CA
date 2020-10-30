@@ -24,7 +24,7 @@ jobs:
         id: cache-iverilog
         uses: actions/cache@v2
         with:
-          path: /usr/bin/iverilog
+          path: /usr/local/bin/iverilog
           key: ${{ runner.os }}-iverilog
           
       - name: Install iverilog
