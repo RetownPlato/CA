@@ -19,18 +19,30 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      - name: Install iverilog and verilator
+      
+      - name: Cache Iverilog
+        id: cache-iverilog
+        uses: actions/cache@v2
+        with:
+          path: /usr/bin/iverilog
+          key: ${{ runner.os }}-iverilog
+          
+      - name: Install iverilog
+        if: steps.cache-iverilog.outputs.cache-hit != 'true'
         run: |
-          echo Installing iverilog and Verilator
-          sudo apt-get install verilator  
           wget ftp://ftp.icarus.com/pub/eda/verilog/v11/verilog-11.0.tar.gz
           sudo tar -zxvf verilog-11.0.tar.gz   
           cd verilog-11.0
           sudo ./configure  
           sudo make
           sudo make install
-          iverilog -V  
+          iverilog -V 
+          echo $(which iverilog)
+
+      - name: Install verilator
+        run: |
+          echo Installing Verilator
+          sudo apt-get install verilator  
           
       - name: Configure
         run: |
@@ -60,7 +72,7 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v1
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           event-type: test-pass
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'         
 
