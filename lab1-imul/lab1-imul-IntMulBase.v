@@ -27,8 +27,6 @@ module lab1_imul_IntMulBaseDpath
   input  lab1_imul_resp_msg_t resp_msg,
 
   // Control signals 
-  input  logic                a_reg_en,
-  input  logic                b_reg_en,
   input  logic                a_mux_sel,
   input  logic                b_mux_sel,
   input  logic                result_reg_en,
@@ -36,8 +34,9 @@ module lab1_imul_IntMulBaseDpath
   input  logic                result_mux_sel,
   
   // Data signals
-  output logic               b_lsb
-)  
+  output logic                b_lsb
+ );
+ 
   localparam c_nbits = 32;
   
   // A Mux
@@ -95,6 +94,7 @@ module lab1_imul_IntMulBaseDpath
   // Result Mux
   
   logic [c_nbits-1:0] add_mux_out;
+  logic [c_nbits-1:0] result_mux_out;
   
   vc_Mux2#(c_nbits) result_mux
   (
@@ -122,7 +122,7 @@ module lab1_imul_IntMulBaseDpath
   vc_LeftLogicalShifter
   #(c_nbits,
     1'b1
-  )(
+  )alls(
     .in    (a_reg_out),
     .shamt (1'b1),
     .out   (a_lls_out)
@@ -136,7 +136,7 @@ module lab1_imul_IntMulBaseDpath
   #(
     c_nbits,
     1'b1
-  )(
+  )brls(
     .in    (b_reg_out),
     .shamt (1'b1),
     .out   (b_rls_out)
@@ -149,11 +149,12 @@ module lab1_imul_IntMulBaseDpath
   vc_SimpleAdder
   #(
     c_nbits
-   )(
+   )adder(
    .in0    (a_reg_out),
    .in1    (result_reg_out),
    .out    (adder_out)
-   )
+   );
+   
    
   // Add Mux
   
@@ -196,15 +197,14 @@ module lab1_imul_IntMulBaseCtrl
   output logic                add_mux_sel,
   
   // Data signals
-  input  logic                b_lsb,
-  input  logic [5:0]          counter
+  input  logic                b_lsb
 );
 
   //-----------------------------------------------------------------------
   // State Definitions
   //-----------------------------------------------------------------------
   
-  localparam STATE_IDEL = 2'd0;
+  localparam STATE_IDLE = 2'd0;
   localparam STATE_CALC = 2'd1;
   localparam STATE_DONE = 2'd2;
   
@@ -214,13 +214,18 @@ module lab1_imul_IntMulBaseCtrl
   
   logic [1:0] state_reg;
   logic [1:0] state_next;
+  logic [5:0] counter;
   
   always @( posedge clk ) begin
     if ( reset ) begin
       state_reg <= STATE_IDLE;
+      counter <= 0;
     end
     else begin
       state_reg <= state_next;
+      if ( state_reg == STATE_CALC ) begin
+         counter <= counter + 1;
+      end
     end
   end
   
@@ -241,9 +246,11 @@ module lab1_imul_IntMulBaseCtrl
     state_next = state_reg;
     
     case ( state_reg )
+      
       STATE_IDLE: if ( req_go )        state_next = STATE_CALC;
       STATE_CALC: if ( is_calc_done )  state_next = STATE_DONE;
-      STATE_DONE: if ( resq_go )       state_next = STATE_IDLE;
+      STATE_DONE: if ( resp_go )       state_next = STATE_IDLE;
+      
     endcase
     
   end
@@ -253,17 +260,21 @@ module lab1_imul_IntMulBaseCtrl
   //---------------------------------------------------------------------
   
   localparam a_x        = 1'dx;
-  localparam a_ld       = 1'd0;
-  localparam a_lls      = 1'd1;
+  localparam a_lls      = 1'd0;
+  localparam a_ld       = 1'd1;
   
   localparam b_x        = 1'dx;
-  localparam b_ld       = 1'd0;
-  localparam b_rls      = 1'd1;
+  localparam b_rls      = 1'd0;
+  localparam b_ld       = 1'd1;
   
   localparam add_x      = 1'dx;
   localparam add_add    = 1'd0;
   localparam add_result = 1'd1;
-  
+
+  localparam result_x    = 1'dx;
+  localparam result_add  = 1'd0;
+  localparam result_zero = 1'd1;
+   
   task cs
   (
     input logic cs_req_rdy,
@@ -273,7 +284,8 @@ module lab1_imul_IntMulBaseCtrl
     input logic cs_b_mux_sel,
     input logic cs_b_reg_en,
     input logic cs_result_mux_sel,
-    input logic cs_result_reg_en
+    input logic cs_result_reg_en,
+    input logic cs_add_mux_sel
   );
   begin
     req_rdy        = cs_req_rdy;
@@ -284,13 +296,18 @@ module lab1_imul_IntMulBaseCtrl
     a_mux_sel      = cs_a_mux_sel;
     b_mux_sel      = cs_b_mux_sel;
     result_mux_sel = cs_result_mux_sel;
+    add_mux_sel    = cs_add_mux_sel;
   end
   endtask
   
   // Labels for Mealy transistions
+   
+  logic do_add;
+  logic do_shift;
   
-  logic do_add   = (counter < 32) && (lsb == 1'b1);
-  logic do_shift = (counter < 32) && (lsb == 1'b0);
+  assign do_add   = (counter < 6'd32) && (b_lsb == 1'b1);
+  assign do_shift = (counter < 6'd32) && (b_lsb == 1'b0);
+   
   // Set outputs using a control signal "table"
   
   always @(*) begin
@@ -298,10 +315,10 @@ module lab1_imul_IntMulBaseCtrl
     case ( state_reg )
     //                           req resp a mux a b mux b add mux  add
     //                           rdy val  sel  en sel  en  sel     en
-      STATE_IDLE:                 cs( 1, 0, a_ld,  1, b_ld,  1, add_add,    1);
-      STATE_CALC: if ( do_add   ) cs( 0, 0, a_lls, 1, b_rls, 1, add_add,    1);
-             else if ( do_shift ) cs( 0, 0, a_lls, 1, b_rls, 1, add_result, 1);  
-      STATE_DONE:                 cs( 0, 1, a_x,   0, b_x,   0, add_x,      0);
+      STATE_IDLE:                 cs( 1, 0, a_ld,  1, b_ld,  1, add_zero, 1);
+      STATE_CALC: if ( do_add   ) cs( 0, 0, a_lls, 1, b_rls, 1, add_add,  1);
+             else if ( do_shift ) cs( 0, 0, a_lls, 1, b_rls, 1, add_add,  1);
+      STATE_DONE:                 cs( 0, 1, a_x,   0, b_x,   0, add_x,    0);
     endcase
   end
   
